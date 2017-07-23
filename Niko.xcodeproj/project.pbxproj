@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F84C9D81F237B29001FECC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84C9D71F237B29001FECC8 /* AppDelegate.swift */; };
+		0F84C9DA1F237B29001FECC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84C9D91F237B29001FECC8 /* ViewController.swift */; };
+		0F84C9DD1F237B29001FECC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F84C9DB1F237B29001FECC8 /* Main.storyboard */; };
+		0F84C9DF1F237B29001FECC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F84C9DE1F237B29001FECC8 /* Assets.xcassets */; };
+		0F84C9E21F237B29001FECC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F84C9E01F237B29001FECC8 /* LaunchScreen.storyboard */; };
+		0F84C9ED1F237B29001FECC8 /* NikoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84C9EC1F237B29001FECC8 /* NikoTests.swift */; };
+		0F84C9FE1F237BC6001FECC8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84C9FD1F237BC6001FECC8 /* KeyboardViewController.swift */; };
+		0F84CA021F237BC6001FECC8 /* Niko Barcode.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0F84C9FB1F237BC6001FECC8 /* Niko Barcode.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0F84CA1B1F237D4A001FECC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA071F237D4A001FECC8 /* Utilities.swift */; };
+		0F84CA1C1F237D4A001FECC8 /* KeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA091F237D4A001FECC8 /* KeyboardKey.swift */; };
+		0F84CA1D1F237D4A001FECC8 /* ImageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0A1F237D4A001FECC8 /* ImageKey.swift */; };
+		0F84CA1E1F237D4A001FECC8 /* KeyboardKeyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0B1F237D4A001FECC8 /* KeyboardKeyBackground.swift */; };
+		0F84CA1F1F237D4A001FECC8 /* KeyboardConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0C1F237D4A001FECC8 /* KeyboardConnector.swift */; };
+		0F84CA201F237D4A001FECC8 /* ExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0D1F237D4A001FECC8 /* ExtraView.swift */; };
+		0F84CA211F237D4A001FECC8 /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0E1F237D4A001FECC8 /* DefaultSettings.swift */; };
+		0F84CA221F237D4A001FECC8 /* DefaultSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F84CA0F1F237D4A001FECC8 /* DefaultSettings.xib */; };
+		0F84CA231F237D4A001FECC8 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA101F237D4A001FECC8 /* Shapes.swift */; };
+		0F84CA241F237D4A001FECC8 /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA121F237D4A001FECC8 /* KeyboardModel.swift */; };
+		0F84CA251F237D4A001FECC8 /* DefaultKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA131F237D4A001FECC8 /* DefaultKeyboard.swift */; };
+		0F84CA261F237D4A001FECC8 /* DirectionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA141F237D4A001FECC8 /* DirectionEnum.swift */; };
+		0F84CA271F237D4A001FECC8 /* PunjabiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA151F237D4A001FECC8 /* PunjabiKeyboard.swift */; };
+		0F84CA281F237D4A001FECC8 /* KeyboardInputTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA171F237D4A001FECC8 /* KeyboardInputTraits.swift */; };
+		0F84CA291F237D4A001FECC8 /* KeyboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA181F237D4A001FECC8 /* KeyboardLayout.swift */; };
+		0F84CA2A1F237D4A001FECC8 /* ForwardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA191F237D4A001FECC8 /* ForwardingView.swift */; };
+		0F84CA2C1F237F4B001FECC8 /* NikoBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */; };
+		0F84CA2E1F238022001FECC8 /* NikoBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F84C9E91F237B29001FECC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F84C9CC1F237B29001FECC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F84C9D31F237B29001FECC8;
+			remoteInfo = Niko;
+		};
+		0F84CA001F237BC6001FECC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F84C9CC1F237B29001FECC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F84C9FA1F237BC6001FECC8;
+			remoteInfo = "Niko Barcode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F84CA061F237BC6001FECC8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0F84CA021F237BC6001FECC8 /* Niko Barcode.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F84C9D41F237B29001FECC8 /* Niko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Niko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F84C9D71F237B29001FECC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F84C9D91F237B29001FECC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F84C9DC1F237B29001FECC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F84C9DE1F237B29001FECC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F84C9E11F237B29001FECC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F84C9E31F237B29001FECC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F84C9E81F237B29001FECC8 /* NikoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F84C9EC1F237B29001FECC8 /* NikoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikoTests.swift; sourceTree = "<group>"; };
+		0F84C9EE1F237B29001FECC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F84C9FB1F237BC6001FECC8 /* Niko Barcode.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Niko Barcode.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F84C9FD1F237BC6001FECC8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		0F84C9FF1F237BC6001FECC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F84CA071F237D4A001FECC8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0F84CA091F237D4A001FECC8 /* KeyboardKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKey.swift; sourceTree = "<group>"; };
+		0F84CA0A1F237D4A001FECC8 /* ImageKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageKey.swift; sourceTree = "<group>"; };
+		0F84CA0B1F237D4A001FECC8 /* KeyboardKeyBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKeyBackground.swift; sourceTree = "<group>"; };
+		0F84CA0C1F237D4A001FECC8 /* KeyboardConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardConnector.swift; sourceTree = "<group>"; };
+		0F84CA0D1F237D4A001FECC8 /* ExtraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraView.swift; sourceTree = "<group>"; };
+		0F84CA0E1F237D4A001FECC8 /* DefaultSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
+		0F84CA0F1F237D4A001FECC8 /* DefaultSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultSettings.xib; sourceTree = "<group>"; };
+		0F84CA101F237D4A001FECC8 /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		0F84CA121F237D4A001FECC8 /* KeyboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardModel.swift; sourceTree = "<group>"; };
+		0F84CA131F237D4A001FECC8 /* DefaultKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultKeyboard.swift; sourceTree = "<group>"; };
+		0F84CA141F237D4A001FECC8 /* DirectionEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionEnum.swift; sourceTree = "<group>"; };
+		0F84CA151F237D4A001FECC8 /* PunjabiKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunjabiKeyboard.swift; sourceTree = "<group>"; };
+		0F84CA171F237D4A001FECC8 /* KeyboardInputTraits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInputTraits.swift; sourceTree = "<group>"; };
+		0F84CA181F237D4A001FECC8 /* KeyboardLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
+		0F84CA191F237D4A001FECC8 /* ForwardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForwardingView.swift; sourceTree = "<group>"; };
+		0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBanner.swift; sourceTree = "<group>"; };
+		0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBarcode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F84C9D11F237B29001FECC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F84C9E51F237B29001FECC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F84C9F81F237BC6001FECC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F84C9CB1F237B29001FECC8 = {
+			isa = PBXGroup;
+			children = (
+				0F84C9D61F237B29001FECC8 /* Niko */,
+				0F84C9EB1F237B29001FECC8 /* NikoTests */,
+				0F84C9FC1F237BC6001FECC8 /* Niko Barcode */,
+				0F84C9D51F237B29001FECC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F84C9D51F237B29001FECC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F84C9D41F237B29001FECC8 /* Niko.app */,
+				0F84C9E81F237B29001FECC8 /* NikoTests.xctest */,
+				0F84C9FB1F237BC6001FECC8 /* Niko Barcode.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F84C9D61F237B29001FECC8 /* Niko */ = {
+			isa = PBXGroup;
+			children = (
+				0F84C9D71F237B29001FECC8 /* AppDelegate.swift */,
+				0F84C9D91F237B29001FECC8 /* ViewController.swift */,
+				0F84C9DB1F237B29001FECC8 /* Main.storyboard */,
+				0F84C9DE1F237B29001FECC8 /* Assets.xcassets */,
+				0F84C9E01F237B29001FECC8 /* LaunchScreen.storyboard */,
+				0F84C9E31F237B29001FECC8 /* Info.plist */,
+			);
+			path = Niko;
+			sourceTree = "<group>";
+		};
+		0F84C9EB1F237B29001FECC8 /* NikoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F84C9EC1F237B29001FECC8 /* NikoTests.swift */,
+				0F84C9EE1F237B29001FECC8 /* Info.plist */,
+			);
+			path = NikoTests;
+			sourceTree = "<group>";
+		};
+		0F84C9FC1F237BC6001FECC8 /* Niko Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				0F84C9FD1F237BC6001FECC8 /* KeyboardViewController.swift */,
+				0F84CA081F237D4A001FECC8 /* Utility */,
+				0F84CA111F237D4A001FECC8 /* Views */,
+				0F84CA161F237D4A001FECC8 /* Model */,
+				0F84CA1A1F237D4A001FECC8 /* Controller */,
+				0F84C9FF1F237BC6001FECC8 /* Info.plist */,
+				0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */,
+				0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */,
+			);
+			path = "Niko Barcode";
+			sourceTree = "<group>";
+		};
+		0F84CA081F237D4A001FECC8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0F84CA071F237D4A001FECC8 /* Utilities.swift */,
+			);
+			name = Utility;
+			path = ../../../../../../Volumes/8587082964/KSCApp/KEETTOO;
+			sourceTree = "<group>";
+		};
+		0F84CA111F237D4A001FECC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F84CA091F237D4A001FECC8 /* KeyboardKey.swift */,
+				0F84CA0A1F237D4A001FECC8 /* ImageKey.swift */,
+				0F84CA0B1F237D4A001FECC8 /* KeyboardKeyBackground.swift */,
+				0F84CA0C1F237D4A001FECC8 /* KeyboardConnector.swift */,
+				0F84CA0D1F237D4A001FECC8 /* ExtraView.swift */,
+				0F84CA0E1F237D4A001FECC8 /* DefaultSettings.swift */,
+				0F84CA0F1F237D4A001FECC8 /* DefaultSettings.xib */,
+				0F84CA101F237D4A001FECC8 /* Shapes.swift */,
+			);
+			name = Views;
+			path = ../../../../../../Volumes/8587082964/KSCApp/KEETTOO;
+			sourceTree = "<group>";
+		};
+		0F84CA161F237D4A001FECC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F84CA121F237D4A001FECC8 /* KeyboardModel.swift */,
+				0F84CA131F237D4A001FECC8 /* DefaultKeyboard.swift */,
+				0F84CA141F237D4A001FECC8 /* DirectionEnum.swift */,
+				0F84CA151F237D4A001FECC8 /* PunjabiKeyboard.swift */,
+			);
+			name = Model;
+			path = ../../../../../../Volumes/8587082964/KSCApp/KEETTOO;
+			sourceTree = "<group>";
+		};
+		0F84CA1A1F237D4A001FECC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F84CA171F237D4A001FECC8 /* KeyboardInputTraits.swift */,
+				0F84CA181F237D4A001FECC8 /* KeyboardLayout.swift */,
+				0F84CA191F237D4A001FECC8 /* ForwardingView.swift */,
+			);
+			name = Controller;
+			path = ../../../../../../Volumes/8587082964/KSCApp/KEETTOO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F84C9D31F237B29001FECC8 /* Niko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F84C9F11F237B29001FECC8 /* Build configuration list for PBXNativeTarget "Niko" */;
+			buildPhases = (
+				0F84C9D01F237B29001FECC8 /* Sources */,
+				0F84C9D11F237B29001FECC8 /* Frameworks */,
+				0F84C9D21F237B29001FECC8 /* Resources */,
+				0F84CA061F237BC6001FECC8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F84CA011F237BC6001FECC8 /* PBXTargetDependency */,
+			);
+			name = Niko;
+			productName = Niko;
+			productReference = 0F84C9D41F237B29001FECC8 /* Niko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F84C9E71F237B29001FECC8 /* NikoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F84C9F41F237B29001FECC8 /* Build configuration list for PBXNativeTarget "NikoTests" */;
+			buildPhases = (
+				0F84C9E41F237B29001FECC8 /* Sources */,
+				0F84C9E51F237B29001FECC8 /* Frameworks */,
+				0F84C9E61F237B29001FECC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F84C9EA1F237B29001FECC8 /* PBXTargetDependency */,
+			);
+			name = NikoTests;
+			productName = NikoTests;
+			productReference = 0F84C9E81F237B29001FECC8 /* NikoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F84C9FA1F237BC6001FECC8 /* Niko Barcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F84CA031F237BC6001FECC8 /* Build configuration list for PBXNativeTarget "Niko Barcode" */;
+			buildPhases = (
+				0F84C9F71F237BC6001FECC8 /* Sources */,
+				0F84C9F81F237BC6001FECC8 /* Frameworks */,
+				0F84C9F91F237BC6001FECC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Niko Barcode";
+			productName = "Niko Barcode";
+			productReference = 0F84C9FB1F237BC6001FECC8 /* Niko Barcode.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F84C9CC1F237B29001FECC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Maahi;
+				TargetAttributes = {
+					0F84C9D31F237B29001FECC8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					0F84C9E71F237B29001FECC8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F84C9D31F237B29001FECC8;
+					};
+					0F84C9FA1F237BC6001FECC8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FS58X3J7RU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0F84C9CF1F237B29001FECC8 /* Build configuration list for PBXProject "Niko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F84C9CB1F237B29001FECC8;
+			productRefGroup = 0F84C9D51F237B29001FECC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F84C9D31F237B29001FECC8 /* Niko */,
+				0F84C9E71F237B29001FECC8 /* NikoTests */,
+				0F84C9FA1F237BC6001FECC8 /* Niko Barcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F84C9D21F237B29001FECC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F84C9E21F237B29001FECC8 /* LaunchScreen.storyboard in Resources */,
+				0F84C9DF1F237B29001FECC8 /* Assets.xcassets in Resources */,
+				0F84C9DD1F237B29001FECC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F84C9E61F237B29001FECC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F84C9F91F237BC6001FECC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F84CA221F237D4A001FECC8 /* DefaultSettings.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F84C9D01F237B29001FECC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F84C9DA1F237B29001FECC8 /* ViewController.swift in Sources */,
+				0F84C9D81F237B29001FECC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F84C9E41F237B29001FECC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F84C9ED1F237B29001FECC8 /* NikoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F84C9F71F237BC6001FECC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F84CA241F237D4A001FECC8 /* KeyboardModel.swift in Sources */,
+				0F84CA1F1F237D4A001FECC8 /* KeyboardConnector.swift in Sources */,
+				0F84CA1B1F237D4A001FECC8 /* Utilities.swift in Sources */,
+				0F84CA2E1F238022001FECC8 /* NikoBarcode.swift in Sources */,
+				0F84CA231F237D4A001FECC8 /* Shapes.swift in Sources */,
+				0F84CA251F237D4A001FECC8 /* DefaultKeyboard.swift in Sources */,
+				0F84CA1D1F237D4A001FECC8 /* ImageKey.swift in Sources */,
+				0F84CA271F237D4A001FECC8 /* PunjabiKeyboard.swift in Sources */,
+				0F84CA2C1F237F4B001FECC8 /* NikoBanner.swift in Sources */,
+				0F84CA201F237D4A001FECC8 /* ExtraView.swift in Sources */,
+				0F84CA1C1F237D4A001FECC8 /* KeyboardKey.swift in Sources */,
+				0F84CA261F237D4A001FECC8 /* DirectionEnum.swift in Sources */,
+				0F84CA281F237D4A001FECC8 /* KeyboardInputTraits.swift in Sources */,
+				0F84CA1E1F237D4A001FECC8 /* KeyboardKeyBackground.swift in Sources */,
+				0F84CA291F237D4A001FECC8 /* KeyboardLayout.swift in Sources */,
+				0F84CA2A1F237D4A001FECC8 /* ForwardingView.swift in Sources */,
+				0F84CA211F237D4A001FECC8 /* DefaultSettings.swift in Sources */,
+				0F84C9FE1F237BC6001FECC8 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F84C9EA1F237B29001FECC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F84C9D31F237B29001FECC8 /* Niko */;
+			targetProxy = 0F84C9E91F237B29001FECC8 /* PBXContainerItemProxy */;
+		};
+		0F84CA011F237BC6001FECC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F84C9FA1F237BC6001FECC8 /* Niko Barcode */;
+			targetProxy = 0F84CA001F237BC6001FECC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F84C9DB1F237B29001FECC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F84C9DC1F237B29001FECC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F84C9E01F237B29001FECC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F84C9E11F237B29001FECC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F84C9EF1F237B29001FECC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F84C9F01F237B29001FECC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F84C9F21F237B29001FECC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Niko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kTeck.Niko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0F84C9F31F237B29001FECC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Niko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kTeck.Niko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0F84C9F51F237B29001FECC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NikoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kTeck.NikoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Niko.app/Niko";
+			};
+			name = Debug;
+		};
+		0F84C9F61F237B29001FECC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NikoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kTeck.NikoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Niko.app/Niko";
+			};
+			name = Release;
+		};
+		0F84CA041F237BC6001FECC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FS58X3J7RU;
+				INFOPLIST_FILE = "Niko Barcode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kTeck.Niko.Niko-Barcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0F84CA051F237BC6001FECC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FS58X3J7RU;
+				INFOPLIST_FILE = "Niko Barcode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kTeck.Niko.Niko-Barcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F84C9CF1F237B29001FECC8 /* Build configuration list for PBXProject "Niko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F84C9EF1F237B29001FECC8 /* Debug */,
+				0F84C9F01F237B29001FECC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F84C9F11F237B29001FECC8 /* Build configuration list for PBXNativeTarget "Niko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F84C9F21F237B29001FECC8 /* Debug */,
+				0F84C9F31F237B29001FECC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F84C9F41F237B29001FECC8 /* Build configuration list for PBXNativeTarget "NikoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F84C9F51F237B29001FECC8 /* Debug */,
+				0F84C9F61F237B29001FECC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F84CA031F237BC6001FECC8 /* Build configuration list for PBXNativeTarget "Niko Barcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F84CA041F237BC6001FECC8 /* Debug */,
+				0F84CA051F237BC6001FECC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F84C9CC1F237B29001FECC8 /* Project object */;
+}
