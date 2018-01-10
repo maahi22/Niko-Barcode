@@ -23,59 +23,6 @@ let kSmallLowercase = "kSmallLowercase"
 
 
 
-/*class KeyboardViewController: UIInputViewController {
-
-    @IBOutlet var nextKeyboardButton: UIButton!
-    
-    override func updateViewConstraints() {
-        super.updateViewConstraints()
-        
-        // Add custom view sizing constraints here
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Perform custom UI setup here
-        self.nextKeyboardButton = UIButton(type: .system)
-        
-        self.nextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), for: [])
-        self.nextKeyboardButton.sizeToFit()
-        self.nextKeyboardButton.translatesAutoresizingMaskIntoConstraints = false
-        
-        self.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: .allTouchEvents)
-        
-        self.view.addSubview(self.nextKeyboardButton)
-        
-        self.nextKeyboardButton.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
-        self.nextKeyboardButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated
-    }
-    
-    override func textWillChange(_ textInput: UITextInput?) {
-        // The app is about to change the document's contents. Perform any preparation here.
-    }
-    
-    override func textDidChange(_ textInput: UITextInput?) {
-        // The app has just changed the document's contents, the document context has been updated.
-        
-        var textColor: UIColor
-        let proxy = self.textDocumentProxy
-        if proxy.keyboardAppearance == UIKeyboardAppearance.dark {
-            textColor = UIColor.white
-        } else {
-            textColor = UIColor.black
-        }
-        self.nextKeyboardButton.setTitleColor(textColor, for: [])
-    }
-
-}
-*/
-
 class KeyboardViewController: UIInputViewController {
     
     let backspaceDelay: TimeInterval = 0.5
@@ -86,7 +33,7 @@ class KeyboardViewController: UIInputViewController {
     var layout: KeyboardLayout?
     var heightConstraint: NSLayoutConstraint?
     
-    var bannerView: ExtraView?
+    var bannerView: NikoBanner?
     var settingsView: ExtraView?
     // public var backThemesImage: UIImageView?
     
@@ -297,7 +244,8 @@ class KeyboardViewController: UIInputViewController {
         if let aBanner = self.createBanner() {
             aBanner.isHidden = true
             self.view.insertSubview(aBanner, belowSubview: self.forwardingView)
-            self.bannerView = aBanner
+            self.bannerView = aBanner as! NikoBanner
+            
             
             // self.view.insertSubview(backThemesImage!, at:0 )
         }
@@ -574,6 +522,8 @@ class KeyboardViewController: UIInputViewController {
                 self.textDocumentProxy.deleteBackward()
                 self.textDocumentProxy.insertText(".")
                 self.textDocumentProxy.insertText(" ")
+              
+                self.checkTestValue()//NikoBarcode Method
             }
             
             self.autoPeriodState = .noSpace
@@ -598,6 +548,8 @@ class KeyboardViewController: UIInputViewController {
         self.textDocumentProxy.deleteBackward()
         self.setCapsIfNeeded()
         
+        self.checkTestValue()//NikoBarcode Method
+        
         // trigger for subsequent deletes
         self.backspaceDelayTimer = Timer.scheduledTimer(timeInterval: backspaceDelay - backspaceRepeat, target: self, selector: #selector(KeyboardViewController.backspaceDelayCallback), userInfo: nil, repeats: false)
     }
@@ -616,6 +568,8 @@ class KeyboardViewController: UIInputViewController {
         
         self.textDocumentProxy.deleteBackward()
         self.setCapsIfNeeded()
+        
+        self.checkTestValue()//NikoBarcode Method
     }
     
     func shiftDown(_ sender: KeyboardKey) {
@@ -909,5 +863,23 @@ class KeyboardViewController: UIInputViewController {
     
     
     
-    
+    //More Cutromisation for suggetion
+    func checkTestValue(){
+
+        
+        if  self.textDocumentProxy.hasText {
+            
+            if let documentContext = self.textDocumentProxy.documentContextBeforeInput { // Make sure that it isn't nil
+                if documentContext.isEmpty == false { // I guess you need false?
+                    // Do what you want with non-empty document context
+                    self.bannerView?.addsuggetionView(documentContext.lastWord)//str.lastWord)
+                }
+            }
+            
+            
+            
+        }else{
+            self.bannerView?.removeSuggetionView()
+        }
+    }
 }

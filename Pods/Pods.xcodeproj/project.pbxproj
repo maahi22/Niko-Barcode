@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113D13F8CF7387900B11D00A2AA0D47D /* Pods-Niko Barcode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9022FBD05554C5819AF6AF90088818B0 /* Pods-Niko Barcode-dummy.m */; };
+		2B119868B160CB52052C4B7555E99191 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2ECBA26BC91412DB4DED727A1F50BA78 /* Pods-Niko-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1493615C357C29A3A9735FEC7429DE3 /* Pods-Niko-dummy.m */; };
+		43E54F0B5EB4CCF5339AC2C8F55A596D /* Pods-NikoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05478F5F942351927D5D4FF357D80794 /* Pods-NikoTests-dummy.m */; };
+		7414755CF79AE483E09AB7E012B94E8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		882ACBCA5110AE2FE6C26DFDDB48F2C5 /* Pods-Niko-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8D91FE74D4152AB0EBB2E6A89438CE /* Pods-Niko-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCEFF8EF325B83C403AF8A210E2141B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E70AF9854C69C1D37167F83CE103270E /* Pods-Niko Barcode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D45194B929C9A42F58F8A060C10CEAF2 /* Pods-Niko Barcode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1F1C13F62A43C0B7744DE2BD153E30E /* Pods-NikoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A470E330E6E35BFD8A63D5144804379 /* Pods-NikoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05478F5F942351927D5D4FF357D80794 /* Pods-NikoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NikoTests-dummy.m"; sourceTree = "<group>"; };
+		05D5A801D57692D97FB4D7E5088B900F /* Pods-Niko Barcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niko Barcode.debug.xcconfig"; sourceTree = "<group>"; };
+		0CEB7BC4CA589D340025FDE0BC0878C9 /* Pods-NikoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NikoTests.modulemap"; sourceTree = "<group>"; };
+		0E1CD34D3C9DF6394E8D315ED8D1B791 /* Pods-NikoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NikoTests-frameworks.sh"; sourceTree = "<group>"; };
+		1C435F567D9D67849384AE1944883083 /* Pods_Niko_Barcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Niko_Barcode.framework; path = "Pods-Niko Barcode.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D1E3EB2B00AA64D3BC56EEF829D41C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD86D176AE21DAE7A142BCA630734C8 /* Pods-NikoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NikoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F909E1D725990AF4D2E5F9F3D303F77 /* Pods-Niko-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Niko-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D32DC7F5EC91F84D087C2E514585918 /* Pods-Niko-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Niko-frameworks.sh"; sourceTree = "<group>"; };
+		84F309DC05A900FB70A38275D90F0545 /* Pods-NikoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NikoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8825698F3E48737D1D2B978E677FFA0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC9A25A4F1F6BDD8DE336AE281DEBF8 /* Pods-NikoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NikoTests-resources.sh"; sourceTree = "<group>"; };
+		9022FBD05554C5819AF6AF90088818B0 /* Pods-Niko Barcode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Niko Barcode-dummy.m"; sourceTree = "<group>"; };
+		9062D39029276112C9E3C04D9B18B359 /* Pods-Niko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niko.debug.xcconfig"; sourceTree = "<group>"; };
+		933CE84C2D30C2228286649BD84A446F /* Pods-Niko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niko.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A470E330E6E35BFD8A63D5144804379 /* Pods-NikoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NikoTests-umbrella.h"; sourceTree = "<group>"; };
+		9A5803EF1DD409B39FE8B1A1139DE5B5 /* Pods_NikoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NikoTests.framework; path = "Pods-NikoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2499452BCEEAC93CA76D7135342D65 /* Pods-Niko Barcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niko Barcode.release.xcconfig"; sourceTree = "<group>"; };
+		A350F851B2E2100A40EF5F9E5F69F4DE /* Pods-Niko Barcode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Niko Barcode.modulemap"; sourceTree = "<group>"; };
+		A9C4C3E4C7E1CC9658F82DEF98945C31 /* Pods-Niko Barcode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Niko Barcode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF1D301A018417F6CF475A1B3FBAC910 /* Pods_Niko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Niko.framework; path = "Pods-Niko.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08EAF99D4F1443BCE823B75F827F52E /* Pods-NikoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NikoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C50E9E06697AC34BF7269E43152F9913 /* Pods-Niko-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Niko-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCB2B639424A5648C045029CE2D09F94 /* Pods-Niko Barcode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Niko Barcode-resources.sh"; sourceTree = "<group>"; };
+		D45194B929C9A42F58F8A060C10CEAF2 /* Pods-Niko Barcode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Niko Barcode-umbrella.h"; sourceTree = "<group>"; };
+		DC8D91FE74D4152AB0EBB2E6A89438CE /* Pods-Niko-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Niko-umbrella.h"; sourceTree = "<group>"; };
+		DCC39490381842485F27AC77B9807A72 /* Pods-Niko.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Niko.modulemap"; sourceTree = "<group>"; };
+		E1E94710CFEC94CCA3BE8E7443E9B2C6 /* Pods-NikoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NikoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA7F249E67E1F61A37E0381D6CE83AC0 /* Pods-Niko-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Niko-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1493615C357C29A3A9735FEC7429DE3 /* Pods-Niko-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Niko-dummy.m"; sourceTree = "<group>"; };
+		F70C7AF26A6E7FBB1217A68F29BCC6C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70F501BA1C456163DFFA1C5BBA8E0D1 /* Pods-Niko Barcode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Niko Barcode-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275104F2F2BA15F7FC80D47FED12E963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7414755CF79AE483E09AB7E012B94E8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5301BCC6E5F66BB96C0F5D841011E40A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEFF8EF325B83C403AF8A210E2141B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687CFE2CC139B7CF1841253592F6A93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B119868B160CB52052C4B7555E99191 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D2EC055CFD65A6B895BD11C9EE243B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20435E2A08634F7BE56E834F09ACB5CE /* Pods-Niko */,
+				562F1DEC49933CC08B4BD6B00F6C28A4 /* Pods-Niko Barcode */,
+				14B91876DCB7C84089FA101D2B04DAED /* Pods-NikoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14B91876DCB7C84089FA101D2B04DAED /* Pods-NikoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8825698F3E48737D1D2B978E677FFA0F /* Info.plist */,
+				0CEB7BC4CA589D340025FDE0BC0878C9 /* Pods-NikoTests.modulemap */,
+				C08EAF99D4F1443BCE823B75F827F52E /* Pods-NikoTests-acknowledgements.markdown */,
+				2DD86D176AE21DAE7A142BCA630734C8 /* Pods-NikoTests-acknowledgements.plist */,
+				05478F5F942351927D5D4FF357D80794 /* Pods-NikoTests-dummy.m */,
+				0E1CD34D3C9DF6394E8D315ED8D1B791 /* Pods-NikoTests-frameworks.sh */,
+				8DC9A25A4F1F6BDD8DE336AE281DEBF8 /* Pods-NikoTests-resources.sh */,
+				9A470E330E6E35BFD8A63D5144804379 /* Pods-NikoTests-umbrella.h */,
+				84F309DC05A900FB70A38275D90F0545 /* Pods-NikoTests.debug.xcconfig */,
+				E1E94710CFEC94CCA3BE8E7443E9B2C6 /* Pods-NikoTests.release.xcconfig */,
+			);
+			name = "Pods-NikoTests";
+			path = "Target Support Files/Pods-NikoTests";
+			sourceTree = "<group>";
+		};
+		20435E2A08634F7BE56E834F09ACB5CE /* Pods-Niko */ = {
+			isa = PBXGroup;
+			children = (
+				21D1E3EB2B00AA64D3BC56EEF829D41C /* Info.plist */,
+				DCC39490381842485F27AC77B9807A72 /* Pods-Niko.modulemap */,
+				C50E9E06697AC34BF7269E43152F9913 /* Pods-Niko-acknowledgements.markdown */,
+				EA7F249E67E1F61A37E0381D6CE83AC0 /* Pods-Niko-acknowledgements.plist */,
+				F1493615C357C29A3A9735FEC7429DE3 /* Pods-Niko-dummy.m */,
+				7D32DC7F5EC91F84D087C2E514585918 /* Pods-Niko-frameworks.sh */,
+				4F909E1D725990AF4D2E5F9F3D303F77 /* Pods-Niko-resources.sh */,
+				DC8D91FE74D4152AB0EBB2E6A89438CE /* Pods-Niko-umbrella.h */,
+				9062D39029276112C9E3C04D9B18B359 /* Pods-Niko.debug.xcconfig */,
+				933CE84C2D30C2228286649BD84A446F /* Pods-Niko.release.xcconfig */,
+			);
+			name = "Pods-Niko";
+			path = "Target Support Files/Pods-Niko";
+			sourceTree = "<group>";
+		};
+		562F1DEC49933CC08B4BD6B00F6C28A4 /* Pods-Niko Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				F70C7AF26A6E7FBB1217A68F29BCC6C8 /* Info.plist */,
+				A350F851B2E2100A40EF5F9E5F69F4DE /* Pods-Niko Barcode.modulemap */,
+				A9C4C3E4C7E1CC9658F82DEF98945C31 /* Pods-Niko Barcode-acknowledgements.markdown */,
+				F70F501BA1C456163DFFA1C5BBA8E0D1 /* Pods-Niko Barcode-acknowledgements.plist */,
+				9022FBD05554C5819AF6AF90088818B0 /* Pods-Niko Barcode-dummy.m */,
+				CCB2B639424A5648C045029CE2D09F94 /* Pods-Niko Barcode-resources.sh */,
+				D45194B929C9A42F58F8A060C10CEAF2 /* Pods-Niko Barcode-umbrella.h */,
+				05D5A801D57692D97FB4D7E5088B900F /* Pods-Niko Barcode.debug.xcconfig */,
+				9B2499452BCEEAC93CA76D7135342D65 /* Pods-Niko Barcode.release.xcconfig */,
+			);
+			name = "Pods-Niko Barcode";
+			path = "Target Support Files/Pods-Niko Barcode";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B939546A7997B02DF91FF0CF5D49389E /* Products */,
+				03D2EC055CFD65A6B895BD11C9EE243B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B939546A7997B02DF91FF0CF5D49389E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D301A018417F6CF475A1B3FBAC910 /* Pods_Niko.framework */,
+				1C435F567D9D67849384AE1944883083 /* Pods_Niko_Barcode.framework */,
+				9A5803EF1DD409B39FE8B1A1139DE5B5 /* Pods_NikoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05B944E52EC3A0CAE82162A97B24B535 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882ACBCA5110AE2FE6C26DFDDB48F2C5 /* Pods-Niko-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE1825F6741AC5B6BB6B8D3A89048DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70AF9854C69C1D37167F83CE103270E /* Pods-Niko Barcode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40C84882D243920128BB3E89667D8AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F1C13F62A43C0B7744DE2BD153E30E /* Pods-NikoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11911FB31B8C0B12D139A63D8F6B78F1 /* Pods-Niko Barcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6137F38E0D1DABBFC7EA97102AED48F /* Build configuration list for PBXNativeTarget "Pods-Niko Barcode" */;
+			buildPhases = (
+				9A1CE55C35258AB825EAB22BBDDDDADD /* Sources */,
+				687CFE2CC139B7CF1841253592F6A93B /* Frameworks */,
+				2DE1825F6741AC5B6BB6B8D3A89048DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Niko Barcode";
+			productName = "Pods-Niko Barcode";
+			productReference = 1C435F567D9D67849384AE1944883083 /* Pods_Niko_Barcode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73AD7F57406ADF7DB273570995156EB0 /* Pods-Niko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D5B9860342511E852A9C6F6DC4A50D /* Build configuration list for PBXNativeTarget "Pods-Niko" */;
+			buildPhases = (
+				E77162BA9A6ECD265BB33A175D6AEFD7 /* Sources */,
+				275104F2F2BA15F7FC80D47FED12E963 /* Frameworks */,
+				05B944E52EC3A0CAE82162A97B24B535 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Niko";
+			productName = "Pods-Niko";
+			productReference = BF1D301A018417F6CF475A1B3FBAC910 /* Pods_Niko.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC7648CAFFEB4165B4CED66B71523976 /* Pods-NikoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37523A2E886EBDDC2C8C92A7FEAE753 /* Build configuration list for PBXNativeTarget "Pods-NikoTests" */;
+			buildPhases = (
+				E59514CA136D88D8EAA48F195196CF7D /* Sources */,
+				5301BCC6E5F66BB96C0F5D841011E40A /* Frameworks */,
+				A40C84882D243920128BB3E89667D8AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NikoTests";
+			productName = "Pods-NikoTests";
+			productReference = 9A5803EF1DD409B39FE8B1A1139DE5B5 /* Pods_NikoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B939546A7997B02DF91FF0CF5D49389E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73AD7F57406ADF7DB273570995156EB0 /* Pods-Niko */,
+				11911FB31B8C0B12D139A63D8F6B78F1 /* Pods-Niko Barcode */,
+				FC7648CAFFEB4165B4CED66B71523976 /* Pods-NikoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A1CE55C35258AB825EAB22BBDDDDADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113D13F8CF7387900B11D00A2AA0D47D /* Pods-Niko Barcode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59514CA136D88D8EAA48F195196CF7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E54F0B5EB4CCF5339AC2C8F55A596D /* Pods-NikoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77162BA9A6ECD265BB33A175D6AEFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECBA26BC91412DB4DED727A1F50BA78 /* Pods-Niko-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		35FBAE286F4DE583B3CDB669BA0FAE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933CE84C2D30C2228286649BD84A446F /* Pods-Niko.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niko/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niko/Pods-Niko.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Niko;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C1A540CC6202B364FC4C697A1262DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D5A801D57692D97FB4D7E5088B900F /* Pods-Niko Barcode.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niko Barcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niko Barcode/Pods-Niko Barcode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Niko_Barcode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8CDCEEB85EA7909378056CE9717186EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E94710CFEC94CCA3BE8E7443E9B2C6 /* Pods-NikoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NikoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NikoTests/Pods-NikoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NikoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D0C07027ED703C0996C9404034780EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2499452BCEEAC93CA76D7135342D65 /* Pods-Niko Barcode.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niko Barcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niko Barcode/Pods-Niko Barcode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Niko_Barcode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A7CA9201B22E1094B1D94E3EAC75BB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9062D39029276112C9E3C04D9B18B359 /* Pods-Niko.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niko/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niko/Pods-Niko.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Niko;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF2C5AC621000245C8CEE9E58873412A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F309DC05A900FB70A38275D90F0545 /* Pods-NikoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NikoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NikoTests/Pods-NikoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NikoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D5B9860342511E852A9C6F6DC4A50D /* Build configuration list for PBXNativeTarget "Pods-Niko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CA9201B22E1094B1D94E3EAC75BB87 /* Debug */,
+				35FBAE286F4DE583B3CDB669BA0FAE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6137F38E0D1DABBFC7EA97102AED48F /* Build configuration list for PBXNativeTarget "Pods-Niko Barcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C1A540CC6202B364FC4C697A1262DF3 /* Debug */,
+				8D0C07027ED703C0996C9404034780EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37523A2E886EBDDC2C8C92A7FEAE753 /* Build configuration list for PBXNativeTarget "Pods-NikoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2C5AC621000245C8CEE9E58873412A /* Debug */,
+				8CDCEEB85EA7909378056CE9717186EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

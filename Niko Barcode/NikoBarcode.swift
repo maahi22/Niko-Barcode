@@ -11,17 +11,16 @@ import UIKit
 
 let kCatTypeEnabled = "kCatTypeEnabled"
 
-class NikoBarcode: KeyboardViewController {
+class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
+    
+    
 
     
     
     let takeDebugScreenshot: Bool = false
     var loadItemView:Bool = false
     
-    
-    
-    
-    
+
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         UserDefaults.standard.register(defaults: [kCatTypeEnabled: true])
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -123,7 +122,7 @@ class NikoBarcode: KeyboardViewController {
     override func createBanner() -> ExtraView? {
         let keetoobanner = NikoBanner(globalColors: type(of: self).globalColors, darkMode: false, solidColorMode: self.solidColorMode())
         
-        keetoobanner.backgroundColor = .lightGray
+        keetoobanner.backgroundColor = .green
         keetoobanner.backgroundColor?.withAlphaComponent(0.7)
         
         return keetoobanner
@@ -250,7 +249,6 @@ class NikoBarcode: KeyboardViewController {
     
     //Message and Diloge Delegates
     func sendTextBack(_ dilog : String){
-        
         textDocumentProxy.insertText(dilog)
     }
     
@@ -260,22 +258,40 @@ class NikoBarcode: KeyboardViewController {
     }
     
     func cancelMsgText (_ lastText : String){
-        
-        
-        
-        
         if let documentContext = self.textDocumentProxy.documentContextBeforeInput { // Make sure that it isn't nil
             if documentContext.isEmpty == false { // I guess you need false?
                 // Do what you want with non-empty document context
-                
                 //documentContext.removeRange
-                
                 var Str = documentContext
                 textDocumentProxy.insertText(Str)
                 //Str.removeRange(Str.startIndex..<Str.startIndex.advancedBy(20))
             }
         }
         
+    }
+    
+    //Banner Delegate methods INSERTING SUGGETIONS
+    func InsertSuggetionText(_ suggetionText : String){
         
+        if let documentContext = self.textDocumentProxy.documentContextBeforeInput { // Make sure that it isn't nil
+            if documentContext.isEmpty == false { // I guess you need false?
+                // Do what you want with non-empty document context
+                let srt = documentContext.lastWord
+                for i in srt.characters{
+                    textDocumentProxy.deleteBackward()
+                }
+            }
+        }
+        textDocumentProxy.insertText(suggetionText)
+    }
+    
+    //Delegate method
+    
+    func openMenu() {
         
-    }}
+    }
+    
+    func openLogo() {
+        
+    }
+}

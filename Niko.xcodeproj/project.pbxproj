@@ -15,24 +15,32 @@
 		0F84C9ED1F237B29001FECC8 /* NikoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84C9EC1F237B29001FECC8 /* NikoTests.swift */; };
 		0F84C9FE1F237BC6001FECC8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84C9FD1F237BC6001FECC8 /* KeyboardViewController.swift */; };
 		0F84CA021F237BC6001FECC8 /* Niko Barcode.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0F84C9FB1F237BC6001FECC8 /* Niko Barcode.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0F84CA1B1F237D4A001FECC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA071F237D4A001FECC8 /* Utilities.swift */; };
-		0F84CA1C1F237D4A001FECC8 /* KeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA091F237D4A001FECC8 /* KeyboardKey.swift */; };
-		0F84CA1D1F237D4A001FECC8 /* ImageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0A1F237D4A001FECC8 /* ImageKey.swift */; };
-		0F84CA1E1F237D4A001FECC8 /* KeyboardKeyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0B1F237D4A001FECC8 /* KeyboardKeyBackground.swift */; };
-		0F84CA1F1F237D4A001FECC8 /* KeyboardConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0C1F237D4A001FECC8 /* KeyboardConnector.swift */; };
-		0F84CA201F237D4A001FECC8 /* ExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0D1F237D4A001FECC8 /* ExtraView.swift */; };
-		0F84CA211F237D4A001FECC8 /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA0E1F237D4A001FECC8 /* DefaultSettings.swift */; };
-		0F84CA221F237D4A001FECC8 /* DefaultSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F84CA0F1F237D4A001FECC8 /* DefaultSettings.xib */; };
-		0F84CA231F237D4A001FECC8 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA101F237D4A001FECC8 /* Shapes.swift */; };
-		0F84CA241F237D4A001FECC8 /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA121F237D4A001FECC8 /* KeyboardModel.swift */; };
-		0F84CA251F237D4A001FECC8 /* DefaultKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA131F237D4A001FECC8 /* DefaultKeyboard.swift */; };
-		0F84CA261F237D4A001FECC8 /* DirectionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA141F237D4A001FECC8 /* DirectionEnum.swift */; };
-		0F84CA271F237D4A001FECC8 /* PunjabiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA151F237D4A001FECC8 /* PunjabiKeyboard.swift */; };
-		0F84CA281F237D4A001FECC8 /* KeyboardInputTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA171F237D4A001FECC8 /* KeyboardInputTraits.swift */; };
-		0F84CA291F237D4A001FECC8 /* KeyboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA181F237D4A001FECC8 /* KeyboardLayout.swift */; };
-		0F84CA2A1F237D4A001FECC8 /* ForwardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA191F237D4A001FECC8 /* ForwardingView.swift */; };
 		0F84CA2C1F237F4B001FECC8 /* NikoBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */; };
 		0F84CA2E1F238022001FECC8 /* NikoBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */; };
+		18DF9A0C2005EBD100504CF7 /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99F92005EBD000504CF7 /* DefaultSettings.swift */; };
+		18DF9A0D2005EBD100504CF7 /* DefaultSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DF99FA2005EBD000504CF7 /* DefaultSettings.xib */; };
+		18DF9A0E2005EBD100504CF7 /* ExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99FB2005EBD000504CF7 /* ExtraView.swift */; };
+		18DF9A0F2005EBD100504CF7 /* ImageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99FC2005EBD000504CF7 /* ImageKey.swift */; };
+		18DF9A102005EBD100504CF7 /* KeyboardConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99FD2005EBD000504CF7 /* KeyboardConnector.swift */; };
+		18DF9A112005EBD100504CF7 /* KeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99FE2005EBD000504CF7 /* KeyboardKey.swift */; };
+		18DF9A122005EBD100504CF7 /* KeyboardKeyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99FF2005EBD000504CF7 /* KeyboardKeyBackground.swift */; };
+		18DF9A132005EBD100504CF7 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A002005EBD000504CF7 /* Shapes.swift */; };
+		18DF9A142005EBD100504CF7 /* DefaultKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A022005EBD100504CF7 /* DefaultKeyboard.swift */; };
+		18DF9A152005EBD100504CF7 /* DirectionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A032005EBD100504CF7 /* DirectionEnum.swift */; };
+		18DF9A162005EBD100504CF7 /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A042005EBD100504CF7 /* KeyboardModel.swift */; };
+		18DF9A172005EBD100504CF7 /* PunjabiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A052005EBD100504CF7 /* PunjabiKeyboard.swift */; };
+		18DF9A182005EBD100504CF7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A072005EBD100504CF7 /* Utilities.swift */; };
+		18DF9A192005EBD100504CF7 /* ForwardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A092005EBD100504CF7 /* ForwardingView.swift */; };
+		18DF9A1A2005EBD100504CF7 /* KeyboardInputTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A0A2005EBD100504CF7 /* KeyboardInputTraits.swift */; };
+		18DF9A1B2005EBD100504CF7 /* KeyboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A0B2005EBD100504CF7 /* KeyboardLayout.swift */; };
+		18DF9A1F2005FFA700504CF7 /* UIColor+Niko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A1D2005FFA600504CF7 /* UIColor+Niko.swift */; };
+		18DF9A202005FFA700504CF7 /* String+Niko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A1E2005FFA700504CF7 /* String+Niko.swift */; };
+		18DF9A2220060D2C00504CF7 /* NikoConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A2120060D2C00504CF7 /* NikoConstant.swift */; };
+		18DF9A2720061C7300504CF7 /* UIColor+Niko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A2520061C7300504CF7 /* UIColor+Niko.swift */; };
+		18DF9A2820061C7300504CF7 /* String+Niko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF9A2620061C7300504CF7 /* String+Niko.swift */; };
+		55894775F8289E434DC0BA07 /* Pods_Niko_Barcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A835CCADB42E1067C9EE636F /* Pods_Niko_Barcode.framework */; };
+		70911B3B3197046DF2D52ED5 /* Pods_Niko.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E37B5EF8EBFAB0E992751B4 /* Pods_Niko.framework */; };
+		E35548F295E84D1D8EA35CD0 /* Pods_NikoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5197251E9C09EC195FC537B1 /* Pods_NikoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,24 +88,39 @@
 		0F84C9FB1F237BC6001FECC8 /* Niko Barcode.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Niko Barcode.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F84C9FD1F237BC6001FECC8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		0F84C9FF1F237BC6001FECC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F84CA071F237D4A001FECC8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		0F84CA091F237D4A001FECC8 /* KeyboardKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKey.swift; sourceTree = "<group>"; };
-		0F84CA0A1F237D4A001FECC8 /* ImageKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageKey.swift; sourceTree = "<group>"; };
-		0F84CA0B1F237D4A001FECC8 /* KeyboardKeyBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKeyBackground.swift; sourceTree = "<group>"; };
-		0F84CA0C1F237D4A001FECC8 /* KeyboardConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardConnector.swift; sourceTree = "<group>"; };
-		0F84CA0D1F237D4A001FECC8 /* ExtraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraView.swift; sourceTree = "<group>"; };
-		0F84CA0E1F237D4A001FECC8 /* DefaultSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
-		0F84CA0F1F237D4A001FECC8 /* DefaultSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultSettings.xib; sourceTree = "<group>"; };
-		0F84CA101F237D4A001FECC8 /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
-		0F84CA121F237D4A001FECC8 /* KeyboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardModel.swift; sourceTree = "<group>"; };
-		0F84CA131F237D4A001FECC8 /* DefaultKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultKeyboard.swift; sourceTree = "<group>"; };
-		0F84CA141F237D4A001FECC8 /* DirectionEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionEnum.swift; sourceTree = "<group>"; };
-		0F84CA151F237D4A001FECC8 /* PunjabiKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunjabiKeyboard.swift; sourceTree = "<group>"; };
-		0F84CA171F237D4A001FECC8 /* KeyboardInputTraits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInputTraits.swift; sourceTree = "<group>"; };
-		0F84CA181F237D4A001FECC8 /* KeyboardLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
-		0F84CA191F237D4A001FECC8 /* ForwardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForwardingView.swift; sourceTree = "<group>"; };
 		0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBanner.swift; sourceTree = "<group>"; };
 		0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBarcode.swift; sourceTree = "<group>"; };
+		17DA0F1D0D405AC0428F87A6 /* Pods-NikoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NikoTests/Pods-NikoTests.release.xcconfig"; sourceTree = "<group>"; };
+		18DF99F92005EBD000504CF7 /* DefaultSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
+		18DF99FA2005EBD000504CF7 /* DefaultSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultSettings.xib; sourceTree = "<group>"; };
+		18DF99FB2005EBD000504CF7 /* ExtraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraView.swift; sourceTree = "<group>"; };
+		18DF99FC2005EBD000504CF7 /* ImageKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageKey.swift; sourceTree = "<group>"; };
+		18DF99FD2005EBD000504CF7 /* KeyboardConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardConnector.swift; sourceTree = "<group>"; };
+		18DF99FE2005EBD000504CF7 /* KeyboardKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKey.swift; sourceTree = "<group>"; };
+		18DF99FF2005EBD000504CF7 /* KeyboardKeyBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKeyBackground.swift; sourceTree = "<group>"; };
+		18DF9A002005EBD000504CF7 /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		18DF9A022005EBD100504CF7 /* DefaultKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultKeyboard.swift; sourceTree = "<group>"; };
+		18DF9A032005EBD100504CF7 /* DirectionEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionEnum.swift; sourceTree = "<group>"; };
+		18DF9A042005EBD100504CF7 /* KeyboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardModel.swift; sourceTree = "<group>"; };
+		18DF9A052005EBD100504CF7 /* PunjabiKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunjabiKeyboard.swift; sourceTree = "<group>"; };
+		18DF9A072005EBD100504CF7 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		18DF9A092005EBD100504CF7 /* ForwardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForwardingView.swift; sourceTree = "<group>"; };
+		18DF9A0A2005EBD100504CF7 /* KeyboardInputTraits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInputTraits.swift; sourceTree = "<group>"; };
+		18DF9A0B2005EBD100504CF7 /* KeyboardLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
+		18DF9A1D2005FFA600504CF7 /* UIColor+Niko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Niko.swift"; sourceTree = "<group>"; };
+		18DF9A1E2005FFA700504CF7 /* String+Niko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Niko.swift"; sourceTree = "<group>"; };
+		18DF9A2120060D2C00504CF7 /* NikoConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikoConstant.swift; sourceTree = "<group>"; };
+		18DF9A2320061A1900504CF7 /* Niko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Niko.entitlements; sourceTree = "<group>"; };
+		18DF9A2520061C7300504CF7 /* UIColor+Niko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Niko.swift"; sourceTree = "<group>"; };
+		18DF9A2620061C7300504CF7 /* String+Niko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Niko.swift"; sourceTree = "<group>"; };
+		279F9E03E4184C1C461F00DC /* Pods-Niko Barcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Niko Barcode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Niko Barcode/Pods-Niko Barcode.debug.xcconfig"; sourceTree = "<group>"; };
+		395DC8E2BB00876584F2709D /* Pods-Niko Barcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Niko Barcode.release.xcconfig"; path = "Pods/Target Support Files/Pods-Niko Barcode/Pods-Niko Barcode.release.xcconfig"; sourceTree = "<group>"; };
+		5197251E9C09EC195FC537B1 /* Pods_NikoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NikoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5224217E5EAD118AA2727C5E /* Pods-Niko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Niko.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Niko/Pods-Niko.debug.xcconfig"; sourceTree = "<group>"; };
+		5E37B5EF8EBFAB0E992751B4 /* Pods_Niko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Niko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		685DE8F840302D78255C9CEA /* Pods-NikoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NikoTests/Pods-NikoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A835CCADB42E1067C9EE636F /* Pods_Niko_Barcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Niko_Barcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE6B959F8BEC20E789BDA3D /* Pods-Niko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Niko.release.xcconfig"; path = "Pods/Target Support Files/Pods-Niko/Pods-Niko.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70911B3B3197046DF2D52ED5 /* Pods_Niko.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35548F295E84D1D8EA35CD0 /* Pods_NikoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55894775F8289E434DC0BA07 /* Pods_Niko_Barcode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +158,8 @@
 				0F84C9EB1F237B29001FECC8 /* NikoTests */,
 				0F84C9FC1F237BC6001FECC8 /* Niko Barcode */,
 				0F84C9D51F237B29001FECC8 /* Products */,
+				FF65CA18C62BA055763EFE80 /* Pods */,
+				F46FEE709C677BBE548DB065 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +176,8 @@
 		0F84C9D61F237B29001FECC8 /* Niko */ = {
 			isa = PBXGroup;
 			children = (
+				18DF9A2420061ACF00504CF7 /* Extension */,
+				18DF9A2320061A1900504CF7 /* Niko.entitlements */,
 				0F84C9D71F237B29001FECC8 /* AppDelegate.swift */,
 				0F84C9D91F237B29001FECC8 /* ViewController.swift */,
 				0F84C9DB1F237B29001FECC8 /* Main.storyboard */,
@@ -170,64 +200,107 @@
 		0F84C9FC1F237BC6001FECC8 /* Niko Barcode */ = {
 			isa = PBXGroup;
 			children = (
+				18DF9A1C2005FF7600504CF7 /* Extension */,
+				18DF9A082005EBD100504CF7 /* Controller */,
+				18DF9A012005EBD100504CF7 /* Model */,
+				18DF9A062005EBD100504CF7 /* Utility */,
+				18DF99F82005EBD000504CF7 /* views */,
 				0F84C9FD1F237BC6001FECC8 /* KeyboardViewController.swift */,
-				0F84CA081F237D4A001FECC8 /* Utility */,
-				0F84CA111F237D4A001FECC8 /* Views */,
-				0F84CA161F237D4A001FECC8 /* Model */,
-				0F84CA1A1F237D4A001FECC8 /* Controller */,
 				0F84C9FF1F237BC6001FECC8 /* Info.plist */,
 				0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */,
 				0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */,
+				18DF9A2120060D2C00504CF7 /* NikoConstant.swift */,
 			);
 			path = "Niko Barcode";
 			sourceTree = "<group>";
 		};
-		0F84CA081F237D4A001FECC8 /* Utility */ = {
+		18DF99F82005EBD000504CF7 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				0F84CA071F237D4A001FECC8 /* Utilities.swift */,
+				18DF99F92005EBD000504CF7 /* DefaultSettings.swift */,
+				18DF99FA2005EBD000504CF7 /* DefaultSettings.xib */,
+				18DF99FB2005EBD000504CF7 /* ExtraView.swift */,
+				18DF99FC2005EBD000504CF7 /* ImageKey.swift */,
+				18DF99FD2005EBD000504CF7 /* KeyboardConnector.swift */,
+				18DF99FE2005EBD000504CF7 /* KeyboardKey.swift */,
+				18DF99FF2005EBD000504CF7 /* KeyboardKeyBackground.swift */,
+				18DF9A002005EBD000504CF7 /* Shapes.swift */,
 			);
-			name = Utility;
-			path = ../../../../../../Volumes/8587082964/KSCApp/KEETTOO;
-			sourceTree = "<group>";
+			name = views;
+			path = Niko/views;
+			sourceTree = SOURCE_ROOT;
 		};
-		0F84CA111F237D4A001FECC8 /* Views */ = {
+		18DF9A012005EBD100504CF7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0F84CA091F237D4A001FECC8 /* KeyboardKey.swift */,
-				0F84CA0A1F237D4A001FECC8 /* ImageKey.swift */,
-				0F84CA0B1F237D4A001FECC8 /* KeyboardKeyBackground.swift */,
-				0F84CA0C1F237D4A001FECC8 /* KeyboardConnector.swift */,
-				0F84CA0D1F237D4A001FECC8 /* ExtraView.swift */,
-				0F84CA0E1F237D4A001FECC8 /* DefaultSettings.swift */,
-				0F84CA0F1F237D4A001FECC8 /* DefaultSettings.xib */,
-				0F84CA101F237D4A001FECC8 /* Shapes.swift */,
-			);
-			name = Views;
-			path = ../../../../../../Volumes/8587082964/KSCApp/KEETTOO;
-			sourceTree = "<group>";
-		};
-		0F84CA161F237D4A001FECC8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0F84CA121F237D4A001FECC8 /* KeyboardModel.swift */,
-				0F84CA131F237D4A001FECC8 /* DefaultKeyboard.swift */,
-				0F84CA141F237D4A001FECC8 /* DirectionEnum.swift */,
-				0F84CA151F237D4A001FECC8 /* PunjabiKeyboard.swift */,
+				18DF9A022005EBD100504CF7 /* DefaultKeyboard.swift */,
+				18DF9A032005EBD100504CF7 /* DirectionEnum.swift */,
+				18DF9A042005EBD100504CF7 /* KeyboardModel.swift */,
+				18DF9A052005EBD100504CF7 /* PunjabiKeyboard.swift */,
 			);
 			name = Model;
-			path = ../../../../../../Volumes/8587082964/KSCApp/KEETTOO;
-			sourceTree = "<group>";
+			path = Niko/Model;
+			sourceTree = SOURCE_ROOT;
 		};
-		0F84CA1A1F237D4A001FECC8 /* Controller */ = {
+		18DF9A062005EBD100504CF7 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				0F84CA171F237D4A001FECC8 /* KeyboardInputTraits.swift */,
-				0F84CA181F237D4A001FECC8 /* KeyboardLayout.swift */,
-				0F84CA191F237D4A001FECC8 /* ForwardingView.swift */,
+				18DF9A072005EBD100504CF7 /* Utilities.swift */,
+			);
+			name = Utility;
+			path = Niko/Utility;
+			sourceTree = SOURCE_ROOT;
+		};
+		18DF9A082005EBD100504CF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18DF9A092005EBD100504CF7 /* ForwardingView.swift */,
+				18DF9A0A2005EBD100504CF7 /* KeyboardInputTraits.swift */,
+				18DF9A0B2005EBD100504CF7 /* KeyboardLayout.swift */,
 			);
 			name = Controller;
-			path = ../../../../../../Volumes/8587082964/KSCApp/KEETTOO;
+			path = Niko/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		18DF9A1C2005FF7600504CF7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18DF9A1E2005FFA700504CF7 /* String+Niko.swift */,
+				18DF9A1D2005FFA600504CF7 /* UIColor+Niko.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18DF9A2420061ACF00504CF7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18DF9A2620061C7300504CF7 /* String+Niko.swift */,
+				18DF9A2520061C7300504CF7 /* UIColor+Niko.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F46FEE709C677BBE548DB065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E37B5EF8EBFAB0E992751B4 /* Pods_Niko.framework */,
+				A835CCADB42E1067C9EE636F /* Pods_Niko_Barcode.framework */,
+				5197251E9C09EC195FC537B1 /* Pods_NikoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF65CA18C62BA055763EFE80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5224217E5EAD118AA2727C5E /* Pods-Niko.debug.xcconfig */,
+				AAE6B959F8BEC20E789BDA3D /* Pods-Niko.release.xcconfig */,
+				279F9E03E4184C1C461F00DC /* Pods-Niko Barcode.debug.xcconfig */,
+				395DC8E2BB00876584F2709D /* Pods-Niko Barcode.release.xcconfig */,
+				685DE8F840302D78255C9CEA /* Pods-NikoTests.debug.xcconfig */,
+				17DA0F1D0D405AC0428F87A6 /* Pods-NikoTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,10 +310,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F84C9F11F237B29001FECC8 /* Build configuration list for PBXNativeTarget "Niko" */;
 			buildPhases = (
+				7D4311B274C1FFBF69D42BC3 /* [CP] Check Pods Manifest.lock */,
 				0F84C9D01F237B29001FECC8 /* Sources */,
 				0F84C9D11F237B29001FECC8 /* Frameworks */,
 				0F84C9D21F237B29001FECC8 /* Resources */,
 				0F84CA061F237BC6001FECC8 /* Embed App Extensions */,
+				12EC7188DB2804BE92E8EDB6 /* [CP] Embed Pods Frameworks */,
+				AA6167FB9F20E777A02FEB81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F84C9F41F237B29001FECC8 /* Build configuration list for PBXNativeTarget "NikoTests" */;
 			buildPhases = (
+				C3673A5AC67A56858FBC10CF /* [CP] Check Pods Manifest.lock */,
 				0F84C9E41F237B29001FECC8 /* Sources */,
 				0F84C9E51F237B29001FECC8 /* Frameworks */,
 				0F84C9E61F237B29001FECC8 /* Resources */,
+				D76525662D1242BD025B1EA1 /* [CP] Embed Pods Frameworks */,
+				3D708B7706E27A935B2BBE70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,9 +353,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F84CA031F237BC6001FECC8 /* Build configuration list for PBXNativeTarget "Niko Barcode" */;
 			buildPhases = (
+				4AFB356EDBEA8B2B521F6A16 /* [CP] Check Pods Manifest.lock */,
 				0F84C9F71F237BC6001FECC8 /* Sources */,
 				0F84C9F81F237BC6001FECC8 /* Frameworks */,
 				0F84C9F91F237BC6001FECC8 /* Resources */,
+				E9EF5B7DF436C8732C2C7061 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,7 +380,19 @@
 				TargetAttributes = {
 					0F84C9D31F237B29001FECC8 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VAWH7R9NX3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					0F84C9E71F237B29001FECC8 = {
 						CreatedOnToolsVersion = 8.0;
@@ -308,7 +401,7 @@
 					};
 					0F84C9FA1F237BC6001FECC8 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = FS58X3J7RU;
+						DevelopmentTeam = VAWH7R9NX3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -355,11 +448,143 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F84CA221F237D4A001FECC8 /* DefaultSettings.xib in Resources */,
+				18DF9A0D2005EBD100504CF7 /* DefaultSettings.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12EC7188DB2804BE92E8EDB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Niko/Pods-Niko-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D708B7706E27A935B2BBE70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NikoTests/Pods-NikoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AFB356EDBEA8B2B521F6A16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Niko Barcode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4311B274C1FFBF69D42BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Niko-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6167FB9F20E777A02FEB81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Niko/Pods-Niko-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3673A5AC67A56858FBC10CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NikoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76525662D1242BD025B1EA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NikoTests/Pods-NikoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EF5B7DF436C8732C2C7061 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Niko Barcode/Pods-Niko Barcode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F84C9D01F237B29001FECC8 /* Sources */ = {
@@ -368,6 +593,8 @@
 			files = (
 				0F84C9DA1F237B29001FECC8 /* ViewController.swift in Sources */,
 				0F84C9D81F237B29001FECC8 /* AppDelegate.swift in Sources */,
+				18DF9A2720061C7300504CF7 /* UIColor+Niko.swift in Sources */,
+				18DF9A2820061C7300504CF7 /* String+Niko.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,24 +610,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F84CA241F237D4A001FECC8 /* KeyboardModel.swift in Sources */,
-				0F84CA1F1F237D4A001FECC8 /* KeyboardConnector.swift in Sources */,
-				0F84CA1B1F237D4A001FECC8 /* Utilities.swift in Sources */,
+				18DF9A1B2005EBD100504CF7 /* KeyboardLayout.swift in Sources */,
 				0F84CA2E1F238022001FECC8 /* NikoBarcode.swift in Sources */,
-				0F84CA231F237D4A001FECC8 /* Shapes.swift in Sources */,
-				0F84CA251F237D4A001FECC8 /* DefaultKeyboard.swift in Sources */,
-				0F84CA1D1F237D4A001FECC8 /* ImageKey.swift in Sources */,
-				0F84CA271F237D4A001FECC8 /* PunjabiKeyboard.swift in Sources */,
+				18DF9A0F2005EBD100504CF7 /* ImageKey.swift in Sources */,
+				18DF9A162005EBD100504CF7 /* KeyboardModel.swift in Sources */,
+				18DF9A182005EBD100504CF7 /* Utilities.swift in Sources */,
+				18DF9A1F2005FFA700504CF7 /* UIColor+Niko.swift in Sources */,
+				18DF9A122005EBD100504CF7 /* KeyboardKeyBackground.swift in Sources */,
+				18DF9A172005EBD100504CF7 /* PunjabiKeyboard.swift in Sources */,
+				18DF9A202005FFA700504CF7 /* String+Niko.swift in Sources */,
+				18DF9A2220060D2C00504CF7 /* NikoConstant.swift in Sources */,
 				0F84CA2C1F237F4B001FECC8 /* NikoBanner.swift in Sources */,
-				0F84CA201F237D4A001FECC8 /* ExtraView.swift in Sources */,
-				0F84CA1C1F237D4A001FECC8 /* KeyboardKey.swift in Sources */,
-				0F84CA261F237D4A001FECC8 /* DirectionEnum.swift in Sources */,
-				0F84CA281F237D4A001FECC8 /* KeyboardInputTraits.swift in Sources */,
-				0F84CA1E1F237D4A001FECC8 /* KeyboardKeyBackground.swift in Sources */,
-				0F84CA291F237D4A001FECC8 /* KeyboardLayout.swift in Sources */,
-				0F84CA2A1F237D4A001FECC8 /* ForwardingView.swift in Sources */,
-				0F84CA211F237D4A001FECC8 /* DefaultSettings.swift in Sources */,
+				18DF9A142005EBD100504CF7 /* DefaultKeyboard.swift in Sources */,
+				18DF9A0E2005EBD100504CF7 /* ExtraView.swift in Sources */,
+				18DF9A0C2005EBD100504CF7 /* DefaultSettings.swift in Sources */,
 				0F84C9FE1F237BC6001FECC8 /* KeyboardViewController.swift in Sources */,
+				18DF9A152005EBD100504CF7 /* DirectionEnum.swift in Sources */,
+				18DF9A132005EBD100504CF7 /* Shapes.swift in Sources */,
+				18DF9A192005EBD100504CF7 /* ForwardingView.swift in Sources */,
+				18DF9A1A2005EBD100504CF7 /* KeyboardInputTraits.swift in Sources */,
+				18DF9A112005EBD100504CF7 /* KeyboardKey.swift in Sources */,
+				18DF9A102005EBD100504CF7 /* KeyboardConnector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,32 +762,43 @@
 		};
 		0F84C9F21F237B29001FECC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5224217E5EAD118AA2727C5E /* Pods-Niko.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Niko/Niko.entitlements;
+				DEVELOPMENT_TEAM = VAWH7R9NX3;
 				INFOPLIST_FILE = Niko/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kTeck.Niko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0F84C9F31F237B29001FECC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE6B959F8BEC20E789BDA3D /* Pods-Niko.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Niko/Niko.entitlements;
+				DEVELOPMENT_TEAM = VAWH7R9NX3;
 				INFOPLIST_FILE = Niko/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kTeck.Niko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		0F84C9F51F237B29001FECC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685DE8F840302D78255C9CEA /* Pods-NikoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -572,6 +813,7 @@
 		};
 		0F84C9F61F237B29001FECC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DA0F1D0D405AC0428F87A6 /* Pods-NikoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -586,8 +828,9 @@
 		};
 		0F84CA041F237BC6001FECC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279F9E03E4184C1C461F00DC /* Pods-Niko Barcode.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = FS58X3J7RU;
+				DEVELOPMENT_TEAM = VAWH7R9NX3;
 				INFOPLIST_FILE = "Niko Barcode/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -600,8 +843,9 @@
 		};
 		0F84CA051F237BC6001FECC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395DC8E2BB00876584F2709D /* Pods-Niko Barcode.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = FS58X3J7RU;
+				DEVELOPMENT_TEAM = VAWH7R9NX3;
 				INFOPLIST_FILE = "Niko Barcode/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -631,6 +875,7 @@
 				0F84C9F31F237B29001FECC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F84C9F41F237B29001FECC8 /* Build configuration list for PBXNativeTarget "NikoTests" */ = {
 			isa = XCConfigurationList;
@@ -639,6 +884,7 @@
 				0F84C9F61F237B29001FECC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F84CA031F237BC6001FECC8 /* Build configuration list for PBXNativeTarget "Niko Barcode" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +893,7 @@
 				0F84CA051F237BC6001FECC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
