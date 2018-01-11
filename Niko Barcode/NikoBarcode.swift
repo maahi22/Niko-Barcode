@@ -120,13 +120,15 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
     }
     
     override func createBanner() -> ExtraView? {
-        let keetoobanner = NikoBanner(globalColors: type(of: self).globalColors, darkMode: false, solidColorMode: self.solidColorMode())
-        
-        keetoobanner.backgroundColor = .green
-        keetoobanner.backgroundColor?.withAlphaComponent(0.7)
-        
-        return keetoobanner
+        let nikoBanner = NikoBanner(globalColors: type(of: self).globalColors, darkMode: false, solidColorMode: self.solidColorMode())
+        nikoBanner.delegate = self
+        nikoBanner.backgroundColor = UIColor.hexStringToUIColor(hex: NikoBannerColor)
+        nikoBanner.backgroundColor?.withAlphaComponent(0.7)
+        return nikoBanner
     }
+    
+    
+    
     
     func takeScreenshotDelay() {
         Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(NikoBarcode.takeScreenshot), userInfo: nil, repeats: false)
@@ -292,6 +294,23 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
     }
     
     func openLogo() {
+        
+    }
+    
+   
+    @objc func settingClick(){
+        
+    }
+    
+    @objc func historyClick(){
+        
+    }
+    
+    @objc func BarcodeClick(){
+       
+    }
+    
+    @objc  func bookMarkClick(){
         
     }
 }

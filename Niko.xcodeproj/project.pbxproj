@@ -17,6 +17,18 @@
 		0F84CA021F237BC6001FECC8 /* Niko Barcode.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0F84C9FB1F237BC6001FECC8 /* Niko Barcode.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0F84CA2C1F237F4B001FECC8 /* NikoBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */; };
 		0F84CA2E1F238022001FECC8 /* NikoBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */; };
+		182DCFF5200747F900112344 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFF3200747F800112344 /* menu@3x.png */; };
+		182DCFF6200747F900112344 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFF4200747F900112344 /* menu@2x.png */; };
+		182DCFF9200748AC00112344 /* IconSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFF7200748AC00112344 /* IconSettings@2x.png */; };
+		182DCFFA200748AC00112344 /* IconSettings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFF8200748AC00112344 /* IconSettings@3x.png */; };
+		182DD00120074AB800112344 /* bookMark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFFB20074AB800112344 /* bookMark@2x.png */; };
+		182DD00220074AB800112344 /* barcode@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFFC20074AB800112344 /* barcode@3x.png */; };
+		182DD00320074AB800112344 /* settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFFD20074AB800112344 /* settings@3x.png */; };
+		182DD00420074AB800112344 /* bookMark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFFE20074AB800112344 /* bookMark@3x.png */; };
+		182DD00520074AB800112344 /* barcode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFFF20074AB800112344 /* barcode@2x.png */; };
+		182DD00620074AB800112344 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DD00020074AB800112344 /* settings@2x.png */; };
+		182DD009200750B800112344 /* history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DD007200750B700112344 /* history@2x.png */; };
+		182DD00A200750B800112344 /* history@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DD008200750B800112344 /* history@3x.png */; };
 		18DF9A0C2005EBD100504CF7 /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99F92005EBD000504CF7 /* DefaultSettings.swift */; };
 		18DF9A0D2005EBD100504CF7 /* DefaultSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DF99FA2005EBD000504CF7 /* DefaultSettings.xib */; };
 		18DF9A0E2005EBD100504CF7 /* ExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99FB2005EBD000504CF7 /* ExtraView.swift */; };
@@ -91,6 +103,18 @@
 		0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBanner.swift; sourceTree = "<group>"; };
 		0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBarcode.swift; sourceTree = "<group>"; };
 		17DA0F1D0D405AC0428F87A6 /* Pods-NikoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NikoTests/Pods-NikoTests.release.xcconfig"; sourceTree = "<group>"; };
+		182DCFF3200747F800112344 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		182DCFF4200747F900112344 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		182DCFF7200748AC00112344 /* IconSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSettings@2x.png"; sourceTree = "<group>"; };
+		182DCFF8200748AC00112344 /* IconSettings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSettings@3x.png"; sourceTree = "<group>"; };
+		182DCFFB20074AB800112344 /* bookMark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookMark@2x.png"; sourceTree = "<group>"; };
+		182DCFFC20074AB800112344 /* barcode@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barcode@3x.png"; sourceTree = "<group>"; };
+		182DCFFD20074AB800112344 /* settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@3x.png"; sourceTree = "<group>"; };
+		182DCFFE20074AB800112344 /* bookMark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookMark@3x.png"; sourceTree = "<group>"; };
+		182DCFFF20074AB800112344 /* barcode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barcode@2x.png"; sourceTree = "<group>"; };
+		182DD00020074AB800112344 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		182DD007200750B700112344 /* history@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "history@2x.png"; sourceTree = "<group>"; };
+		182DD008200750B800112344 /* history@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "history@3x.png"; sourceTree = "<group>"; };
 		18DF99F92005EBD000504CF7 /* DefaultSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
 		18DF99FA2005EBD000504CF7 /* DefaultSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultSettings.xib; sourceTree = "<group>"; };
 		18DF99FB2005EBD000504CF7 /* ExtraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraView.swift; sourceTree = "<group>"; };
@@ -200,6 +224,8 @@
 		0F84C9FC1F237BC6001FECC8 /* Niko Barcode */ = {
 			isa = PBXGroup;
 			children = (
+				182DCFF12007478300112344 /* Resources */,
+				18DF9A29200643AF00504CF7 /* BarCode */,
 				18DF9A1C2005FF7600504CF7 /* Extension */,
 				18DF9A082005EBD100504CF7 /* Controller */,
 				18DF9A012005EBD100504CF7 /* Model */,
@@ -212,6 +238,33 @@
 				18DF9A2120060D2C00504CF7 /* NikoConstant.swift */,
 			);
 			path = "Niko Barcode";
+			sourceTree = "<group>";
+		};
+		182DCFF12007478300112344 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				182DCFF22007479100112344 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		182DCFF22007479100112344 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				182DD007200750B700112344 /* history@2x.png */,
+				182DD008200750B800112344 /* history@3x.png */,
+				182DCFFF20074AB800112344 /* barcode@2x.png */,
+				182DCFFC20074AB800112344 /* barcode@3x.png */,
+				182DCFFB20074AB800112344 /* bookMark@2x.png */,
+				182DCFFE20074AB800112344 /* bookMark@3x.png */,
+				182DD00020074AB800112344 /* settings@2x.png */,
+				182DCFFD20074AB800112344 /* settings@3x.png */,
+				182DCFF7200748AC00112344 /* IconSettings@2x.png */,
+				182DCFF8200748AC00112344 /* IconSettings@3x.png */,
+				182DCFF4200747F900112344 /* menu@2x.png */,
+				182DCFF3200747F800112344 /* menu@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		18DF99F82005EBD000504CF7 /* views */ = {
@@ -278,6 +331,13 @@
 				18DF9A2520061C7300504CF7 /* UIColor+Niko.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		18DF9A29200643AF00504CF7 /* BarCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BarCode;
 			sourceTree = "<group>";
 		};
 		F46FEE709C677BBE548DB065 /* Frameworks */ = {
@@ -448,7 +508,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182DD00620074AB800112344 /* settings@2x.png in Resources */,
+				182DCFFA200748AC00112344 /* IconSettings@3x.png in Resources */,
+				182DD00A200750B800112344 /* history@3x.png in Resources */,
+				182DCFF5200747F900112344 /* menu@3x.png in Resources */,
+				182DCFF6200747F900112344 /* menu@2x.png in Resources */,
 				18DF9A0D2005EBD100504CF7 /* DefaultSettings.xib in Resources */,
+				182DD00120074AB800112344 /* bookMark@2x.png in Resources */,
+				182DD00520074AB800112344 /* barcode@2x.png in Resources */,
+				182DD00220074AB800112344 /* barcode@3x.png in Resources */,
+				182DD00320074AB800112344 /* settings@3x.png in Resources */,
+				182DD009200750B800112344 /* history@2x.png in Resources */,
+				182DD00420074AB800112344 /* bookMark@3x.png in Resources */,
+				182DCFF9200748AC00112344 /* IconSettings@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

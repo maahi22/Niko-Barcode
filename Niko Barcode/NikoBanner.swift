@@ -13,8 +13,12 @@ protocol NikoBannerDelegate {
     
     func openMenu()
     func openLogo()
-    func openContainerAppWithAdd(_ urlString : String)
+    func settingClick()
+    func historyClick()
+    func BarcodeClick()
+    func bookMarkClick()
     
+    func openContainerAppWithAdd(_ urlString : String)
     func InsertSuggetionText(_ suggetionText : String)
 }
 
@@ -32,8 +36,15 @@ class NikoBanner: ExtraView {
     // MARK:- Delegate
     var delegate:NikoBannerDelegate?
     var reqCalledSts = false
+    var menuView  :UIView = UIView()
     var btnLogo :UIButton = UIButton()
     var btnMenu :UIButton = UIButton()
+    var btnSetting :UIButton = UIButton()
+    var btnBarcode :UIButton = UIButton()
+    var btnHistory :UIButton = UIButton()
+    var btnBookMark :UIButton = UIButton()
+    
+    
     var btnSuggetion1: UIButton = UIButton()
     var btnSuggetion2: UIButton = UIButton()
     var btnSuggetion3: UIButton = UIButton()
@@ -41,8 +52,6 @@ class NikoBanner: ExtraView {
     //var animationView :UIView = UIView()
     var btnAddLogo :UIButton = UIButton()
     
-    var latitude = 0.0
-    var langitude = 0.0
     var catSwitch: UISwitch = UISwitch()
     var catLabel: UILabel = UILabel()
     var suggetionView  :UIView = UIView()
@@ -52,8 +61,8 @@ class NikoBanner: ExtraView {
         super.init(globalColors: globalColors, darkMode: darkMode, solidColorMode: solidColorMode)
         
         
-        self.addSubview(self.btnLogo)
-        self.addSubview(self.btnMenu)
+        /*self.addSubview(self.btnLogo)
+        self.addSubview(self.btnMenu)*/
   //      self.addSubview(self.animationView)
         
         
@@ -62,7 +71,10 @@ class NikoBanner: ExtraView {
         self.suggetionView.frame.size.width = (self.frame.size.width - 80)
         self.addSubview(self.suggetionView)
         
-        
+        self.menuView.frame.origin = CGPoint(x: 0, y: 0)
+        self.menuView.frame.size.height = self.frame.size.height
+        self.menuView.frame.size.width = self.frame.size.width
+        self.addSubview(self.menuView)
         
         //self.updateAppearance()
     }
@@ -97,27 +109,8 @@ class NikoBanner: ExtraView {
     override func layoutSubviews() {
         super.layoutSubviews()
        
-        self.backgroundColor = .red
         
         self.suggetionView.backgroundColor = .lightGray//UIColor.hexStringToUIColor(hex: KeettooBannerColor)//.darkGray KeettooBannerColor
-       /* self.btnAddLogo.frame.origin = CGPoint(x: 0, y: 1)//(self.frame.size.width - 130)
-        self.btnAddLogo.frame.size.height = 40
-        self.btnAddLogo.frame.size.width = 40
-        self.btnAddLogo.addTarget(self, action: #selector(openAddvertisement), for: .touchUpInside)
-        self.animationView.addSubview(self.btnAddLogo)
-    
-        
-        animationView.translatesAutoresizingMaskIntoConstraints = false
-        let views = ["animationView": animationView]
-        let widthConstraints = NSLayoutConstraint.constraints(withVisualFormat: "V:[animationView(40)]", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views)
-        let heightConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:[animationView(\(self.frame.size.width - 96))]", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views)
-        let horizontalConstraint = NSLayoutConstraint(item: animationView, attribute: NSLayoutAttribute.centerX, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.centerX, multiplier: 1, constant: 0)
-        let verticalConstraint = NSLayoutConstraint(item: animationView, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.centerY, multiplier: 1, constant: 0)
-        NSLayoutConstraint.activate(widthConstraints)
-        NSLayoutConstraint.activate(heightConstraints)
-        NSLayoutConstraint.activate([horizontalConstraint, verticalConstraint])
-        animationView.isHidden = true
-        */
         
         let btnWidth:CGFloat = (suggetionView.frame.size.width / 3)
         
@@ -158,22 +151,85 @@ class NikoBanner: ExtraView {
         
         
         
-        self.btnLogo.frame.origin = CGPoint(x: 0, y: 4)
+        
+        
+        
+        
+        
+        
+        
+        self.menuView.backgroundColor = .clear
+        
+        let bannerWidth = self.frame.size.width
+        self.btnBarcode.frame.origin = CGPoint(x: bannerWidth - 100, y: 0)
+        self.btnBarcode.frame.size.height = 40
+        self.btnBarcode.frame.size.width =  40
+        var image2 = UIImage(named: "barcode.png")
+        btnBarcode.setImage(image2, for: .normal)
+        self.btnBarcode.addTarget(self, action: #selector(BarcodeClick), for: .touchUpInside)
+        self.btnBarcode.backgroundColor = UIColor.hexStringToUIColor(hex: NikoBannerColor)//.lightGray
+        self.menuView.addSubview(self.btnBarcode)
+        
+        self.btnSetting.frame.origin = CGPoint(x: bannerWidth - 150, y: 0)
+        self.btnSetting.frame.size.height = 40
+        self.btnSetting.frame.size.width = 40
+        image2 = UIImage(named: "settings.png")
+        btnSetting.setImage(image2, for: .normal)
+        self.btnSetting.addTarget(self, action: #selector(settingClick), for: .touchUpInside)
+        self.menuView.addSubview(self.btnSetting)
+        
+        self.btnHistory.frame.origin = CGPoint(x: bannerWidth - 200, y: 0)
+        self.btnHistory.frame.size.height = 40
+        self.btnHistory.frame.size.width = 40
+         image2 = UIImage(named: "history.png")
+        btnHistory.setImage(image2, for: .normal)
+        self.btnHistory.addTarget(self, action: #selector(historyClick), for: .touchUpInside)
+        self.menuView.addSubview(self.btnHistory)
+        
+        self.btnBookMark.frame.origin = CGPoint(x: bannerWidth - 250, y: 0)
+        self.btnBookMark.frame.size.height = 40
+        self.btnBookMark.frame.size.width = 40
+         image2 = UIImage(named: "bookMark.png")
+        btnBookMark.setImage(image2, for: .normal)
+        self.btnBookMark.addTarget(self, action: #selector(bookMarkClick), for: .touchUpInside)
+        self.menuView.addSubview(self.btnBookMark)
+        
+        
+        
+        
+       
+        
+        menuView.translatesAutoresizingMaskIntoConstraints = false
+        let viewsM = ["menuView": menuView]
+        let widthConstraintsM = NSLayoutConstraint.constraints(withVisualFormat: "V:[menuView(40)]", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsM)
+        let heightConstraintsM = NSLayoutConstraint.constraints(withVisualFormat: "H:[menuView(\(self.frame.size.width))]", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsM)
+        let horizontalConstraintM = NSLayoutConstraint(item: menuView, attribute: NSLayoutAttribute.centerX, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.centerX, multiplier: 1, constant: 0)
+        let verticalConstraintM = NSLayoutConstraint(item: menuView, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.centerY, multiplier: 1, constant: 0)
+        NSLayoutConstraint.activate(widthConstraintsM)
+        NSLayoutConstraint.activate(heightConstraintsM)
+        NSLayoutConstraint.activate([horizontalConstraintM, verticalConstraintM])
+        menuView.isHidden = false
+        
+        
+        
+        /*self.btnLogo.frame.origin = CGPoint(x: 0, y: 4)
         self.btnLogo.frame.size.height = 36
         self.btnLogo.frame.size.width = 36
         let image = UIImage(named: "logo.png")
         btnLogo.setImage(image, for: .normal)
         self.btnLogo.addTarget(self, action: #selector(clickLogo), for: .touchUpInside)
         
-        
+        self.menuView.addSubview(self.btnLogo)*/
         
         self.btnMenu.frame.origin = CGPoint(x: 5, y: 4)
         self.btnMenu.frame.size.height = 36
         self.btnMenu.frame.size.width = 36
         self.btnMenu.tintColor = .blue
-        let image2 = UIImage(named: "menu.png")
+        image2 = UIImage(named: "menu.png")
         btnMenu.setImage(image2, for: .normal)
         self.btnMenu.addTarget(self, action: #selector(clickMenu), for: .touchUpInside)
+        self.menuView.addSubview(self.btnMenu)
+        
         
         
         if NikoBanner.isFullAccessGranted(){
@@ -278,6 +334,8 @@ class NikoBanner: ExtraView {
         
     }
 
+    
+    
     static func isFullAccessGranted() -> Bool
     {
         if #available(iOSApplicationExtension 10.0, *)
@@ -318,10 +376,34 @@ class NikoBanner: ExtraView {
     
     
     
+  //Menu selection
+   @objc func settingClick(){
+        delegate?.settingClick()
+    }
+    
+   @objc func historyClick(){
+        delegate?.historyClick()
+    }
+    
+   @objc func BarcodeClick(){
+        delegate?.BarcodeClick()
+    }
+    
+  @objc  func bookMarkClick(){
+        delegate?.bookMarkClick()
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 //Customisation for suggetion
     public func addsuggetionView(_ str :String){
-        //self.animationView.isHidden = true
         self.suggetionView.isHidden = false
+        self.menuView.isHidden = true
         if str == ""{
             return
         }
@@ -331,6 +413,7 @@ class NikoBanner: ExtraView {
     public func removeSuggetionView(){
         //self.animationView.isHidden = false
         self.suggetionView.isHidden = true
+        self.menuView.isHidden = false
     }
     
     
