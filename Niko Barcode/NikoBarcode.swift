@@ -308,6 +308,8 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
     
     @objc func BarcodeClick(){
        
+        self.openApp("NikoBarcode://?KeyWordProduct=Barcode")
+       // NikoUrlSchemaKeye
     }
     
     @objc  func bookMarkClick(){

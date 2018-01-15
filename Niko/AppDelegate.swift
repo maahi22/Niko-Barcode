@@ -42,5 +42,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        // When you type customSchemeExample://red in the search bar in Safari
+        let urlScheme = url.scheme //[URL_scheme]
+        let host = url.host //red
+        
+        // When you type customSchemeExample://?backgroundColor=red or customSchemeExample://?backgroundColor=green
+        
+        let urlComponents = NSURLComponents(url: url, resolvingAgainstBaseURL: false)
+        let items = (urlComponents?.queryItems)! as [NSURLQueryItem] // {name = backgroundcolor, value = red}
+        if (url.scheme  == "NikoBarcode") {
+            
+           
+            
+            if let _ = items.first, let propertyName = items.first?.name, let propertyValue = items.first?.value {
+                
+                if (propertyName == "Barcode") {
+                    
+                    let storyboard = UIStoryboard(name: "Barcode", bundle: nil)
+                    let barcodePage = storyboard.instantiateViewController(withIdentifier: "BarcodeScaner") as! BarcodeScaner
+                    self.window?.rootViewController?.present(barcodePage, animated: true, completion: nil)
+                    return true
+                    
+                }
+            }
+            
+        }
+        return false
+    }
+    
+    @objc func dismiss() {
+        self.window?.rootViewController?.dismiss(animated: true, completion: nil)
+    }
+    
+    
+    
 }
 

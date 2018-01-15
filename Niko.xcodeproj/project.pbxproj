@@ -17,6 +17,9 @@
 		0F84CA021F237BC6001FECC8 /* Niko Barcode.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0F84C9FB1F237BC6001FECC8 /* Niko Barcode.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0F84CA2C1F237F4B001FECC8 /* NikoBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */; };
 		0F84CA2E1F238022001FECC8 /* NikoBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */; };
+		181D66BF200CC89500CC6E78 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181D66BE200CC89300CC6E78 /* AVFoundation.framework */; };
+		181D66C2200CD16000CC6E78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181D66C0200CD15F00CC6E78 /* Foundation.framework */; };
+		181D66C3200CD16000CC6E78 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181D66C1200CD16000CC6E78 /* CoreFoundation.framework */; };
 		182DCFF5200747F900112344 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFF3200747F800112344 /* menu@3x.png */; };
 		182DCFF6200747F900112344 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFF4200747F900112344 /* menu@2x.png */; };
 		182DCFF9200748AC00112344 /* IconSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DCFF7200748AC00112344 /* IconSettings@2x.png */; };
@@ -29,6 +32,9 @@
 		182DD00620074AB800112344 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DD00020074AB800112344 /* settings@2x.png */; };
 		182DD009200750B800112344 /* history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DD007200750B700112344 /* history@2x.png */; };
 		182DD00A200750B800112344 /* history@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DD008200750B800112344 /* history@3x.png */; };
+		18AFF05B200CA62A00DDD7D9 /* Barcode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AFF05A200CA62900DDD7D9 /* Barcode.storyboard */; };
+		18AFF05D200CA6C400DDD7D9 /* BarcodeScaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFF05C200CA6C400DDD7D9 /* BarcodeScaner.swift */; };
+		18AFF060200CA94800DDD7D9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFF05F200CA94800DDD7D9 /* Constant.swift */; };
 		18DF9A0C2005EBD100504CF7 /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99F92005EBD000504CF7 /* DefaultSettings.swift */; };
 		18DF9A0D2005EBD100504CF7 /* DefaultSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DF99FA2005EBD000504CF7 /* DefaultSettings.xib */; };
 		18DF9A0E2005EBD100504CF7 /* ExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF99FB2005EBD000504CF7 /* ExtraView.swift */; };
@@ -103,6 +109,9 @@
 		0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBanner.swift; sourceTree = "<group>"; };
 		0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBarcode.swift; sourceTree = "<group>"; };
 		17DA0F1D0D405AC0428F87A6 /* Pods-NikoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NikoTests/Pods-NikoTests.release.xcconfig"; sourceTree = "<group>"; };
+		181D66BE200CC89300CC6E78 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		181D66C0200CD15F00CC6E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		181D66C1200CD16000CC6E78 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		182DCFF3200747F800112344 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
 		182DCFF4200747F900112344 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 		182DCFF7200748AC00112344 /* IconSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSettings@2x.png"; sourceTree = "<group>"; };
@@ -115,6 +124,9 @@
 		182DD00020074AB800112344 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
 		182DD007200750B700112344 /* history@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "history@2x.png"; sourceTree = "<group>"; };
 		182DD008200750B800112344 /* history@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "history@3x.png"; sourceTree = "<group>"; };
+		18AFF05A200CA62900DDD7D9 /* Barcode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Barcode.storyboard; sourceTree = "<group>"; };
+		18AFF05C200CA6C400DDD7D9 /* BarcodeScaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScaner.swift; sourceTree = "<group>"; };
+		18AFF05F200CA94800DDD7D9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		18DF99F92005EBD000504CF7 /* DefaultSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
 		18DF99FA2005EBD000504CF7 /* DefaultSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultSettings.xib; sourceTree = "<group>"; };
 		18DF99FB2005EBD000504CF7 /* ExtraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraView.swift; sourceTree = "<group>"; };
@@ -152,6 +164,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181D66C2200CD16000CC6E78 /* Foundation.framework in Frameworks */,
+				181D66C3200CD16000CC6E78 /* CoreFoundation.framework in Frameworks */,
+				181D66BF200CC89500CC6E78 /* AVFoundation.framework in Frameworks */,
 				70911B3B3197046DF2D52ED5 /* Pods_Niko.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +215,8 @@
 		0F84C9D61F237B29001FECC8 /* Niko */ = {
 			isa = PBXGroup;
 			children = (
+				18AFF05E200CA8FD00DDD7D9 /* Connection */,
+				18AFF059200CA5A300DDD7D9 /* Bar code */,
 				18DF9A2420061ACF00504CF7 /* Extension */,
 				18DF9A2320061A1900504CF7 /* Niko.entitlements */,
 				0F84C9D71F237B29001FECC8 /* AppDelegate.swift */,
@@ -265,6 +282,23 @@
 				182DCFF3200747F800112344 /* menu@3x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		18AFF059200CA5A300DDD7D9 /* Bar code */ = {
+			isa = PBXGroup;
+			children = (
+				18AFF05A200CA62900DDD7D9 /* Barcode.storyboard */,
+				18AFF05C200CA6C400DDD7D9 /* BarcodeScaner.swift */,
+				18AFF05F200CA94800DDD7D9 /* Constant.swift */,
+			);
+			path = "Bar code";
+			sourceTree = "<group>";
+		};
+		18AFF05E200CA8FD00DDD7D9 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Connection;
 			sourceTree = "<group>";
 		};
 		18DF99F82005EBD000504CF7 /* views */ = {
@@ -343,6 +377,9 @@
 		F46FEE709C677BBE548DB065 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				181D66C1200CD16000CC6E78 /* CoreFoundation.framework */,
+				181D66C0200CD15F00CC6E78 /* Foundation.framework */,
+				181D66BE200CC89300CC6E78 /* AVFoundation.framework */,
 				5E37B5EF8EBFAB0E992751B4 /* Pods_Niko.framework */,
 				A835CCADB42E1067C9EE636F /* Pods_Niko_Barcode.framework */,
 				5197251E9C09EC195FC537B1 /* Pods_NikoTests.framework */,
@@ -492,6 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F84C9E21F237B29001FECC8 /* LaunchScreen.storyboard in Resources */,
+				18AFF05B200CA62A00DDD7D9 /* Barcode.storyboard in Resources */,
 				0F84C9DF1F237B29001FECC8 /* Assets.xcassets in Resources */,
 				0F84C9DD1F237B29001FECC8 /* Main.storyboard in Resources */,
 			);
@@ -665,8 +703,10 @@
 			files = (
 				0F84C9DA1F237B29001FECC8 /* ViewController.swift in Sources */,
 				0F84C9D81F237B29001FECC8 /* AppDelegate.swift in Sources */,
+				18AFF05D200CA6C400DDD7D9 /* BarcodeScaner.swift in Sources */,
 				18DF9A2720061C7300504CF7 /* UIColor+Niko.swift in Sources */,
 				18DF9A2820061C7300504CF7 /* String+Niko.swift in Sources */,
+				18AFF060200CA94800DDD7D9 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
