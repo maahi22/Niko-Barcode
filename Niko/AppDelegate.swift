@@ -70,6 +70,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 
                 if (propertyName == "Barcode") {
                     
+                    /*let mainStoryBoard = UIStoryboard(name: "Barcode", bundle: nil)
+                    let ViewController = mainStoryBoard.instantiateViewController(withIdentifier: "BarcodeScaner") as! BarcodeScaner
+                    // let navController = UINavigationController(rootViewController: ViewController)
+                    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+                    appDelegate.window?.rootViewController = ViewController*/
+                    
+                    
                     let storyboard = UIStoryboard(name: "Barcode", bundle: nil)
                     let barcodePage = storyboard.instantiateViewController(withIdentifier: "BarcodeScaner") as! BarcodeScaner
                     self.window?.rootViewController?.present(barcodePage, animated: true, completion: nil)

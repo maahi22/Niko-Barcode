@@ -14,6 +14,9 @@ import AVFoundation
 
 class BarcodeScaner: UIViewController {
 
+    @IBOutlet var messageLabel:UILabel!
+    @IBOutlet var topbar: UIView!
+    
     var captureSession = AVCaptureSession()
     var videoPreviewLayer: AVCaptureVideoPreviewLayer?
     var qrCodeFrameView: UIView?
@@ -83,8 +86,8 @@ class BarcodeScaner: UIViewController {
         captureSession.startRunning()
         
         // Move the message label and top bar to the front
-        //view.bringSubview(toFront: messageLabel)
-        //view.bringSubview(toFront: topbar)
+        view.bringSubview(toFront: messageLabel)
+        view.bringSubview(toFront: topbar)
         
         // Initialize QR Code Frame to highlight the QR code
         qrCodeFrameView = UIView()
@@ -117,7 +120,12 @@ class BarcodeScaner: UIViewController {
     */
 
     
-  
+    @IBAction func cancelScanning(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        
+        exit(0)
+    }
+    
     // MARK: - Helper methods
     
    
