@@ -524,7 +524,7 @@ class KeyboardViewController: UIInputViewController {
                 attribute:NSLayoutAttribute.notAnAttribute,
                 multiplier:0,
                 constant:height)
-            self.heightConstraint!.priority = 1000
+            self.heightConstraint!.priority = UILayoutPriority(rawValue: 1000)
             
             self.view.addConstraint(self.heightConstraint!) // TODO: what if view already has constraint added?
         }

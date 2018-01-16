@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+       
+        
+        let mainStoryBoard = UIStoryboard(name: "Barcode", bundle: nil)
+        let ViewController = mainStoryBoard.instantiateViewController(withIdentifier: "BarcodeScaner") as! BarcodeScaner
+        // let navController = UINavigationController(rootViewController: ViewController)
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window?.rootViewController = ViewController
+        
+        
         return true
     }
 

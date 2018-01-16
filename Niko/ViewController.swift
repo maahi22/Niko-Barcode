@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        
         
+        let storyboard = UIStoryboard(name: "Barcode", bundle: nil)
+        let barcodePage = storyboard.instantiateViewController(withIdentifier: "BarcodeScaner") as! BarcodeScaner
+       // self.vi?.rootViewController?.present(barcodePage, animated: true, completion: nil)
+        self.present(barcodePage, animated: true) {
+        
+        }
         
         print("Niko Load")
     }

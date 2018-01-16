@@ -250,7 +250,7 @@ class NikoBanner: ExtraView {
     
     
     
-    func clickMenu()  {
+    @objc func clickMenu()  {
         
         if menuClick {
             menuClick = false

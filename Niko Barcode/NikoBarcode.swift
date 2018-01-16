@@ -130,11 +130,11 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
     
     
     
-    func takeScreenshotDelay() {
+    @objc func takeScreenshotDelay() {
         Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(NikoBarcode.takeScreenshot), userInfo: nil, repeats: false)
     }
     
-    func takeScreenshot() {
+    @objc func takeScreenshot() {
         if !self.view.bounds.isEmpty {
             UIDevice.current.beginGeneratingDeviceOrientationNotifications()
             
@@ -240,7 +240,7 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
         }
     }
     
-    func openURL(_ url: URL) {
+    @objc func openURL(_ url: URL) {
         return
     }
     
