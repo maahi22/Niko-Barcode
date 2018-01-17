@@ -17,6 +17,9 @@
 		0F84CA021F237BC6001FECC8 /* Niko Barcode.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0F84C9FB1F237BC6001FECC8 /* Niko Barcode.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0F84CA2C1F237F4B001FECC8 /* NikoBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */; };
 		0F84CA2E1F238022001FECC8 /* NikoBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */; };
+		181B4951200F30180058019D /* MenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B4950200F30170058019D /* MenuItems.swift */; };
+		181B4953200F30B50058019D /* MenuItems.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B4952200F30B50058019D /* MenuItems.storyboard */; };
+		181B4955200F336A0058019D /* MenuCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B4954200F336A0058019D /* MenuCollCell.swift */; };
 		181D66BF200CC89500CC6E78 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181D66BE200CC89300CC6E78 /* AVFoundation.framework */; };
 		181D66C2200CD16000CC6E78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181D66C0200CD15F00CC6E78 /* Foundation.framework */; };
 		181D66C3200CD16000CC6E78 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181D66C1200CD16000CC6E78 /* CoreFoundation.framework */; };
@@ -109,6 +112,9 @@
 		0F84CA2B1F237F4B001FECC8 /* NikoBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBanner.swift; sourceTree = "<group>"; };
 		0F84CA2D1F238022001FECC8 /* NikoBarcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikoBarcode.swift; sourceTree = "<group>"; };
 		17DA0F1D0D405AC0428F87A6 /* Pods-NikoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NikoTests/Pods-NikoTests.release.xcconfig"; sourceTree = "<group>"; };
+		181B4950200F30170058019D /* MenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItems.swift; sourceTree = "<group>"; };
+		181B4952200F30B50058019D /* MenuItems.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuItems.storyboard; sourceTree = "<group>"; };
+		181B4954200F336A0058019D /* MenuCollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollCell.swift; sourceTree = "<group>"; };
 		181D66BE200CC89300CC6E78 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		181D66C0200CD15F00CC6E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		181D66C1200CD16000CC6E78 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -241,6 +247,7 @@
 		0F84C9FC1F237BC6001FECC8 /* Niko Barcode */ = {
 			isa = PBXGroup;
 			children = (
+				181B494F200F2BB20058019D /* Menu */,
 				182DCFF12007478300112344 /* Resources */,
 				18DF9A29200643AF00504CF7 /* BarCode */,
 				18DF9A1C2005FF7600504CF7 /* Extension */,
@@ -255,6 +262,16 @@
 				18DF9A2120060D2C00504CF7 /* NikoConstant.swift */,
 			);
 			path = "Niko Barcode";
+			sourceTree = "<group>";
+		};
+		181B494F200F2BB20058019D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				181B4950200F30170058019D /* MenuItems.swift */,
+				181B4954200F336A0058019D /* MenuCollCell.swift */,
+				181B4952200F30B50058019D /* MenuItems.storyboard */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		182DCFF12007478300112344 /* Resources */ = {
@@ -554,6 +571,7 @@
 				182DCFF5200747F900112344 /* menu@3x.png in Resources */,
 				182DCFF6200747F900112344 /* menu@2x.png in Resources */,
 				18DF9A0D2005EBD100504CF7 /* DefaultSettings.xib in Resources */,
+				181B4953200F30B50058019D /* MenuItems.storyboard in Resources */,
 				182DD00120074AB800112344 /* bookMark@2x.png in Resources */,
 				182DD00520074AB800112344 /* barcode@2x.png in Resources */,
 				182DD00220074AB800112344 /* barcode@3x.png in Resources */,
@@ -735,7 +753,9 @@
 				18DF9A202005FFA700504CF7 /* String+Niko.swift in Sources */,
 				18DF9A2220060D2C00504CF7 /* NikoConstant.swift in Sources */,
 				0F84CA2C1F237F4B001FECC8 /* NikoBanner.swift in Sources */,
+				181B4951200F30180058019D /* MenuItems.swift in Sources */,
 				18DF9A142005EBD100504CF7 /* DefaultKeyboard.swift in Sources */,
+				181B4955200F336A0058019D /* MenuCollCell.swift in Sources */,
 				18DF9A0E2005EBD100504CF7 /* ExtraView.swift in Sources */,
 				18DF9A0C2005EBD100504CF7 /* DefaultSettings.swift in Sources */,
 				0F84C9FE1F237BC6001FECC8 /* KeyboardViewController.swift in Sources */,

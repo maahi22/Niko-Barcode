@@ -340,10 +340,11 @@ class KeyboardViewController: UIInputViewController {
            
         }else{
             let aBanner: NikoBarcode =  NikoBarcode()
-            let aban = aBanner.createBanner()
-            aban?.isHidden = true
-            self.view.insertSubview(aban!, belowSubview: self.forwardingView)
-            self.bannerView = (aban as! NikoBanner)
+            let aban = aBanner.createBanner() as! NikoBanner
+            aban.isHidden = true
+            aban.delegate = self as? NikoBannerDelegate
+            self.view.insertSubview(aban, belowSubview: self.forwardingView)
+            self.bannerView = aban
             
         }
     }

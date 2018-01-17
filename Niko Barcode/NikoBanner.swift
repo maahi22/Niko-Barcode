@@ -238,14 +238,7 @@ class NikoBanner: ExtraView {
             print("--NO")
             return
         }
-        
-        
-        
-        
-        
-        
-        
-        
+                
     }
     
     
@@ -275,8 +268,6 @@ class NikoBanner: ExtraView {
     
     
     func openAddvertisement() {
-        
-        
         
         
     }
@@ -386,6 +377,7 @@ class NikoBanner: ExtraView {
     }
     
    @objc func BarcodeClick(){
+    
         delegate?.BarcodeClick()
     }
     

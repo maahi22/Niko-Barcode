@@ -11,30 +11,22 @@ import UIKit
 
 let kCatTypeEnabled = "kCatTypeEnabled"
 
-class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
-    
-    
-
+class NikoBarcode: KeyboardViewController, NikoBannerDelegate, MenuItemsDelegate {
     
     
     let takeDebugScreenshot: Bool = false
     var loadItemView:Bool = false
+    var itemsView :MenuItems = MenuItems()
+    
     
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         UserDefaults.standard.register(defaults: [kCatTypeEnabled: true])
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
-        
-        
-        
-        
+         self.view.backgroundColor  = .green
+       // self.bannerView?.delegate = self
     }
-    
-    
-    
-    
-    
     
     
     
@@ -42,6 +34,20 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    
+    /*override   func loadView() {
+        super.loadView()
+        
+        if let aBanner = self.createBanner() {
+            aBanner.isHidden = true
+            self.view.insertSubview(aBanner, belowSubview: self.forwardingView)
+            self.bannerView = aBanner as? NikoBanner
+            
+            
+        }
+    }*/
+    
     
     override func keyPressed(_ key: Key) {
         let textDocumentProxy = self.textDocumentProxy
@@ -196,26 +202,6 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
     }
     
     
-   
-    
-    func openKCoin(){
-        
-        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
-        print("Main App sandbox \(paths)")
-        
-        
-        // self.view.backgroundColor = UIColor(patternImage: UIImage(named: "themes123.jpeg")!)
-        
-        /*  let frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)//(x:0, y:0,Width: self.view.frame.size.width,Height: self.view.frame.size.height)
-         let backgroundImage = UIImageView(frame: frame)
-         backgroundImage.image = UIImage(named: "themes123.jpeg")
-         self.view.insertSubview(backgroundImage, at: 0)*/
-    }
-    
-   
-    
-    
-    
     
     
     //*******http://jayeshkawli.ghost.io/ios-custom-url-schemes/
@@ -287,9 +273,47 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
         textDocumentProxy.insertText(suggetionText)
     }
     
+    
+    
+    
+    
+    //Menues items
+    func loadItemsView() {
+        loadItemView = true
+        
+       /* let mainStoryBoard = UIStoryboard(name: "MenuItems", bundle: nil)
+        itemsView = mainStoryBoard.instantiateViewController(withIdentifier: "MenuItems") as! MenuItems
+        
+        itemsView.view.frame.origin = CGPoint(x: 0, y: metric("topBanner"))
+        itemsView.view.frame.size.height = 300//(self.view.frame.size.height - metric("topBanner"))
+        itemsView.view.frame.size.width = 300//self.view.frame.size.width
+        itemsView.delegate = self
+        self.view.addSubview(itemsView.view)*/
+        
+        self.view.backgroundColor = .red
+    }
+    
+    //On Menu Click calles Delegate methods
+    func openItemsNumber(_ index : Int){
+    
+        
+    }
     //Delegate method
     
     func openMenu() {
+        
+        if loadItemView {
+            loadItemView = false
+            
+            if self.view.subviews.contains(itemsView.view) {
+                itemsView.view.removeFromSuperview()
+            }
+            
+            
+        }else{
+            loadItemView = true
+            self.loadItemsView()
+        }
         
     }
     
@@ -299,7 +323,7 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
     
    
     @objc func settingClick(){
-        
+        self.view.backgroundColor  = .green
     }
     
     @objc func historyClick(){
@@ -308,6 +332,9 @@ class NikoBarcode: KeyboardViewController , NikoBannerDelegate {
     
     @objc func BarcodeClick(){
        
+        textDocumentProxy.insertText("Hi Niko")
+        self.bannerView?.backgroundColor = .green
+        
         self.openApp("NikoBarcode://?KeyWordProduct=Barcode")
        // NikoUrlSchemaKeye
     }
